@@ -1,0 +1,4242 @@
+/*fonts*/
+@font-face {
+    font-family: "cstmolivia";
+    src: url(../libraries/fonts/oliviadhorjent/olivia.ttf) format("truetype");
+    font-weight: 300;
+    font-display: swap;
+}
+@font-face {
+    font-family: "cstmgothamrd";
+    src: url(../libraries/fonts/oliviadhorjent/gothamrdlight.ttf) format("truetype");
+    font-weight: 200;
+    font-display: swap;
+}
+@font-face {
+    font-family: "cstmgothamrd";
+    src: url(../libraries/fonts/oliviadhorjent/gothamrdbook.ttf) format("truetype");
+    font-weight: 300;
+    font-display: swap;
+}
+@font-face {
+    font-family: "cstmgothamrd";
+    src: url(../libraries/fonts/oliviadhorjent/gothamrdmedium.ttf) format("truetype");
+    font-weight: 500;
+    font-display: swap;
+}
+@font-face {
+    font-family: "cstmgothamrd";
+    src: url(../libraries/fonts/oliviadhorjent/gothamrdbold.ttf) format("truetype");
+    font-weight: 600;
+    font-display: swap;
+}
+@font-face {
+    font-family: "merriW";
+    src: url(../libraries/fonts/merriweather/light.ttf) format("truetype");
+    font-weight: 200;
+    font-display: swap;
+}
+@font-face {
+    font-family: "merriWIt";
+    src: url(../libraries/fonts/merriweather/italic.ttf) format("truetype");
+    font-weight: 300;
+    font-display: swap;
+}
+@font-face {
+    font-family: "merriW";
+    src: url(../libraries/fonts/merriweather/regular.ttf) format("truetype");
+    font-weight: 300;
+    font-display: swap;
+}
+@font-face {
+    font-family: "merriW";
+    src: url(../libraries/fonts/merriweather/bold.ttf) format("truetype");
+    font-weight: 600;
+    font-display: swap;
+}
+@font-face {
+	font-family: "cstmredressed";
+	src: url(../libraries/fonts/Redressed/Redressed-Regular.ttf);
+    font-display: swap;
+}
+@font-face {
+	font-family: "cstmabel";
+	src: url(../libraries/fonts/Redressed/Abel-Regular.ttf);
+    font-display: swap;
+}
+
+@font-face {
+	font-family: "montslight";
+	src: url(../libraries/fonts/montserrat/Montserrat-Light.ttf) format("truetype");
+	font-weight: 300;
+	font-display: swap;
+}
+@font-face {
+	font-family: "montsregular";
+	src: url(../libraries/fonts/montserrat/Montserrat-Regular.ttf) format("truetype");
+	font-weight: 400;
+	font-display: swap;
+}
+@font-face {
+	font-family: "montsmedium";
+	src: url(../libraries/fonts/montserrat/Montserrat-Medium.ttf) format("truetype");
+	font-weight: 500;
+	font-display: swap;
+}
+@font-face {
+	font-family: "montssemi";
+	src: url(../libraries/fonts/montserrat/Montserrat-SemiBold.ttf) format("truetype");
+	font-weight: 600;
+	font-display: swap;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+	/*user-select: none;	*/
+	height: 100%;
+}
+
+.bg-containe {
+	position: absolute;
+	top: 0;
+	opacity: 0.7;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+}
+
+
+
+.bg-containe img {
+	width: 100%;
+}
+.chitwan-first-section {
+    background-image: url(../img/bgimg18346.png);
+    background-size: cover;
+    min-height: -webkit-fill-available;
+    min-height: 710px;
+    height: 100%;
+    background-position: center;
+    background-size: 100% 100%;
+}
+.logo-section {
+    text-align: center;
+    padding-top: 40px;
+}
+.logomain-home {
+    max-width: 163px;
+	width: 100%;
+}
+.herotext-section {
+	text-align: center;
+    padding: 80px 0;
+}
+.herotext {
+	font-family: "cstmolivia";
+	font-weight: 300;
+	color: #fff;
+	font-size: 70px;
+	letter-spacing: 1.6px;
+    margin: 0;
+}
+.separator-mark {
+	border: 3px solid #fff;
+	width: 12px;
+	height: 12px;
+	display: block;
+	border-radius: 50%;
+    margin: 0 auto 4px;
+}
+#wrapper {
+	position: relative;
+	height: auto;
+}
+
+#headerSection {
+	width: 100%;
+	overflow: hidden;
+	box-shadow: 0 4px 12px rgb(0 0 0 / 25%);
+
+}
+#headerSection .header-contents {
+	background: #fff;
+    padding: 18px;
+}
+#headerSection .header-contents ul {
+	list-style: none;
+	display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+		margin-left: 9rem;
+}
+
+#headerSection .header-contents ul li a {
+	color: #007A3E;
+	text-decoration: none;
+	font-family: "montssemi";
+	font-weight: 600;
+	position: relative;
+	font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.75px;
+}
+#headerSection .header-contents ul li:last-child a {
+	border: 1px solid #000;
+	background-color: #000;
+	padding: 8px 8px;
+	border-radius: 4px;
+	color: #fff;
+}
+#headerSection .header-contents ul li a:hover:after, #headerSection .header-contents ul li a:focus:after, #headerSection .header-contents ul li a:active:after {
+  width: 100%;
+}
+#headerSection .header-contents ul li a:after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  width: 0%;
+  transform: translateX(-50%);
+  height: 3px;
+  background: #007A3E;
+  transition: 0.35s;
+}
+#headerSection .header-contents ul li:nth-child(1) a:after {
+	display: none;
+}
+.logo-main{
+	position: absolute;
+    width: 90px;
+    height: 90px;
+    left: 90px;
+    background: #fff;
+    top: 40px;
+    z-index: 1000;
+    border-radius: 50%;
+	
+	/* font-family: 'Phosphate';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 95px;
+	line-height: 119px;
+	/* identical to box height */
+	/* display: flex;
+	align-items: center;
+	text-align: center;
+	
+	color: #007A3E;  */
+}
+
+
+#headerSection .header-contents ul li .logo-header img {
+	width: 90px;
+}
+.book-icon-section {
+    margin: 0px 12px;
+    padding: 5px;
+    position: fixed;
+    z-index: 2147483644;
+    bottom: 24px;
+    top: auto;
+    height: 60px;
+    width: 60px;
+    border-radius: 29px;
+    box-shadow: rgb(0 0 0 / 15%) 0px 4px 12px 0px;
+    background: #346735;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 20px;
+    transition: all 0.3s ease-in-out;
+  	cursor: default;
+}
+/*tooltip */
+.tooltip {
+	visibility: visible;
+    z-index: 99;
+    opacity: 1;
+    width: 100px;
+    padding: 5px 10px;
+    background: #fff;
+    color: #346735;
+    position: absolute;
+    top: -102%;
+    left: -5%;
+    border-radius: 9px;
+    font-size: 16px;
+    transform: translateY(9px);
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 0 3px rgb(56 54 54 / 86%);
+    transition: .3s linear;
+	animation: odsoky 1s ease-in-out infinite  alternate;
+}
+.tooltip p {
+	font-family: "cstmabel";
+	text-align: center;
+	font-weight: 600;
+	font-style: bold;
+	margin-bottom: 0%;
+}
+/* tooltip  after*/
+.tooltip::after {
+    content: " ";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 12px 12.5px 0 12.5px;
+    border-color:#fff transparent transparent transparent;
+    position: absolute;
+	/* box-shadow: 0 0 3px rgb(56 54 54 / 86%); */
+    left: 18%;
+    bottom:-39%;
+	display: none;
+}
+.book-icon-section:hover .tooltip{
+  visibility: visible;
+  transform: translateY(-10px);
+  opacity: 3;
+  transition: .3s linear;
+  animation: odsoky 1s ease-in-out infinite  alternate;
+}
+@keyframes odsoky {
+  0%{
+    transform: translateY(6px);
+  }
+
+  100%{
+    transform: translateY(1px);
+  }
+}
+
+/*hover ToolTip*/
+.top:hover {transform: translateY(-6px);  }
+
+.book-icon-section a {
+	text-decoration: none;
+	text-align: center;
+	color: #fff;
+	font-family: "cstmgothamrd";
+	font-weight: 300;
+	font-size: 14px;
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.book-icon-section img {
+	width: 100%;
+}
+
+/*slider main home*/
+.chitwan-carousel-section .gallery {
+	/*height: 320px;*/
+	perspective: 1000px;
+	transform-style: preserve-3d;
+	width: 100%;
+	margin: 35px auto 0;
+}
+.chitwan-carousel-section .gallery .flickity-slider {
+	perspective: 1000px;
+	transform-style: preserve-3d;
+}
+.chitwan-carousel-section .gallery .flickity-viewport {
+    height: 430px!important;
+}
+.chitwan-carousel-section .gallery-cell {
+  width: 80%;
+  margin-right: 10px;
+}
+.chitwan-carousel-section #rupakotCarousel.is-fullscreen .gallery-cell {
+  height: 100%;
+  width: 100%;
+}
+.chitwan-carousel-section #rupakotCarousel.is-fullscreen .gallery-cell .slide-img-box {
+	height: 100%;
+}
+.chitwan-carousel-section #rupakotCarousel.is-fullscreen .gallery-cell .slide-img-box img {
+	max-width: 100%;
+    height: 76%;
+    object-fit: contain;
+    border-radius: 0;
+    margin-top: 25px;
+}
+.chitwan-carousel-section #rupakotCarousel.is-fullscreen .gallery-cell .slide-img-box .slider-overlay {
+	display: none;
+}
+.chitwan-carousel-section #rupakotCarousel.is-fullscreen .gallery-cell .slide-text-content {
+	position: relative;
+    bottom: 98px;
+    z-index: 999999;
+    background-color: #3e3e3e;
+    padding: 12px 100px;
+}
+.chitwan-carousel-section #rupakotCarousel.is-fullscreen .gallery-cell .slide-text-content h1.slide-float-text {
+    color: #fff;
+    margin-top: 0;
+}
+.chitwan-carousel-section #rupakotCarousel.is-fullscreen .gallery-cell .slide-text-content .slide-text-small {
+	color: #fff;
+	padding: 10px 0px 0;
+    height: 30px;
+    overflow: hidden;
+}
+.chitwan-carousel-section .gallery-cell .slide-img-box {
+	display: block;
+	position: relative;
+	height: 280px;
+}
+.chitwan-carousel-section .gallery-cell .slide-img-box img {
+	border-radius: 20px;
+	width: 100%;
+    height: 280px;
+    object-fit: cover;
+}
+.chitwan-carousel-section .gallery-cell .slide-img-box .slider-overlay {
+	position: absolute;
+    top: 0;
+    left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	background-color: rgba(0,0,0,0.2);
+	border-radius: 20px;
+}
+.chitwan-carousel-section .gallery-cell .slide-text-content h1.slide-float-text {
+	text-align: center;
+	margin-top: 15px;
+	font-family: "cstmolivia";
+	font-weight: 300;
+	color: #007A3E;
+    font-size: 36px;
+}
+.chitwan-carousel-section .gallery-cell .slide-text-content {
+	visibility: hidden;
+	opacity: 0;
+	transition: visibility 3.5s, opacity 0.3s ease-in-out;
+	text-align: center;
+	width: 100%;
+	height: auto;
+}
+.chitwan-carousel-section .gallery .flickity-page-dots {
+    bottom: -20px;
+}
+.chitwan-carousel-section .gallery-cell.is-selected .slide-text-content {
+	visibility: visible;
+	opacity: 1;
+}
+.chitwan-carousel-section .gallery-cell .slide-text-small {
+	font-family: "montsregular";
+	font-weight: 500;
+	font-size: 14px;
+	color: #000;
+	width: 100%;
+	display: block;
+    /* padding: 15px 0 0; */
+    line-height: 1.4;
+}
+.chitwan-carousel-section .gallery-cell .slide-text-content a {
+	text-decoration: underline;
+	transition: 0.3s ease-in-out;
+	color: #000;
+}
+.chitwan-carousel-section .gallery-cell .slide-text-content a:hover {
+	text-decoration: none;
+}
+.chitwan-carousel-section .gallery-cell .slide-btn-more {
+	font-family: "cstmgothamrd";
+	font-weight: 500;
+	font-size: 16px;
+	color: #000;
+}
+
+/*slider ends*/
+
+.chitwan-carousel-section {
+    background-size: 100%;
+	text-align: center;
+	padding: 0 5px;
+    height: 620px;
+}
+.chitwan-carousel-section .section-main-header {
+	font-family: "cstmolivia";
+	font-weight: 300;
+	color: #007A3E;
+	font-size: 70px;
+    padding-top: 57px;
+    line-height: 0.8;
+    margin-bottom: 0;
+}
+.chitwan-carousel-section .section-minihead {
+	font-family: "montsregular";
+	font-weight: 400;
+	color: #737373;
+	font-size: 13px;
+    margin-top: 6px;
+}
+
+.chitwan-experience-section {
+    background-size: 100% 100%;
+    min-height: 494px;
+    position: relative;
+}
+
+.experience-head-bg{
+	top: -1%;
+    height: 7%;
+    width: 100%;
+    z-index: 1;
+    position: absolute;
+}
+
+.experience-head-bg img{
+	width:100%;
+	height: 100%;
+	transform: rotate(180deg);
+}
+
+
+.experience-bottom-bg{
+    height: 5%;
+    top: 95%;
+    width: 100%;
+    z-index: 1;
+    position: absolute;
+
+}
+
+.experience-bottom-bg img{
+	width:100%;
+	height: 100%;
+}
+
+#myVideo {
+	position: relative;
+
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height:100% ;
+  }
+.chitwan-experience-section .experience-content-section {
+	position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.chitwan-experience-section .experience-content-section h1.theme-text {
+	position: absolute;
+	font-family: "cstmolivia";
+	font-weight: 300;
+	color: #fff;
+	font-size: 85px;
+	line-height: 0.8;
+    margin-bottom: 60px;
+	top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.chitwan-experience-section .experience-content-section .booknow-btn {
+	position: absolute;
+    width: 150px;
+    margin: auto;
+    height: 45px;
+    border: 2px solid #fff;
+    background: rgb(0 122 62);
+    box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.4s ease-in-out;
+	top: 76%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+	z-index: 1;
+}
+.chitwan-experience-section .experience-content-section .booknow-btn a {
+ text-decoration: none;
+}
+.chitwan-experience-section .experience-content-section .booknow-btn:hover {
+	background: transparent;
+}
+.chitwan-experience-section .experience-content-section .booknow-btn a .book-btn {
+	font-family: "montsmedium";
+	font-weight: 500;
+	font-size: 16px;
+	color: #fff;
+}
+.chitwan-explore-section {
+	
+    background-size: 100%;
+}
+.chitwan-explore-section .explore-head-section {
+	text-align: center;
+    padding-top: 150px;
+    padding-bottom: 16px;
+}
+.room-explore-section  .explore-head-section {
+	padding-top: 0px;
+}
+.chitwan-explore-section .explore-head-section h1.explore-head {
+	font-family: "cstmolivia";
+	font-weight: 300;
+	color: #007A3E;
+	font-size: 70px;
+	line-height: 0.8;
+    margin-bottom: 10px;
+}
+.chitwan-explore-section .explore-head-section h1.section-minihead {
+	font-family: "montsRegular";
+	font-weight: 400;
+	color: #737373;
+	font-size: 13px;
+}
+
+/*flickity flick css*/
+.chitwan-explore-section .gallery {
+	padding-left: 12px;
+}
+
+.chitwan-explore-section .gallery-cell {
+  width: 56%;
+  margin-right: 13px;
+}
+
+.gallery-cell a{
+	text-decoration: none;
+}
+
+
+.chitwan-explore-section .gallery-cell .slide-imgbox img {
+	width: 100%;
+	height: 200px;
+	border-radius: 10px;
+}
+.chitwan-explore-section .gallery-cell .slide-textbox {
+    margin: 16px 10px 0;
+}
+.chitwan-explore-section .gallery-cell .slide-textbox h1.slide-head {
+	font-family: "montssemi";
+	font-weight: 600;
+	color: #007A3E;
+    font-size: 16px;
+    
+    margin-bottom: 10px;
+}
+.chitwan-explore-section .gallery-cell .slide-textbox p.text-discript {
+	font-family: "montsRegular";
+	font-weight: 500;
+    font-size: 14px;
+    color: #666;
+    line-height: 1.4;
+    margin-bottom: 10px;
+    height: 95px;
+    overflow: hidden;
+}
+/*ends*/
+
+.chitwan-hastag-section {
+    padding-top: 98px;
+}
+.chitwan-hastag-section .hastag-head {
+	text-align: center;
+}
+.chitwan-hastag-section .hastag-head h1.section-minihead {
+	font-family: "merriW";
+	font-weight: 600;
+	color: #737373;
+    font-size: 12px;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+.chitwan-hastag-section .hastag-head h1.hastag-text {
+	font-family: "cstmgothamrd";
+	font-weight: 500;
+	font-size: 35px;
+	color: #346735;
+	line-height: 0.3;
+    margin-bottom: 10px;
+}
+.chitwan-hastag-section .hastag-head span.hastag-minihead {
+	font-family: "cstmgothamrd";
+	font-weight: 500;
+	font-size: 16px;
+	color: #737373;
+}
+.mg-rt-40 {
+	margin-right: 40px;
+}
+.chitwan-hastag-section .hastag-img-gallery {
+	padding-top: 14px;
+	position: relative;
+}
+.chitwan-hastag-section .hastag-img-gallery .gallery-row {
+	display: flex;
+}
+.chitwan-hastag-section .hastag-img-gallery .gallery-row .gallery-col {
+    height: auto;
+	width: 100%;
+}
+.chitwan-hastag-section .hastag-img-gallery .gallery-row .gallery-col img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.hastag-booknow-btn{
+	width: 124px;
+    margin: auto;
+    height: 44px;
+    border: 2px solid #fff;
+    background: transparent;
+    box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.4s ease-in-out;
+	position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+
+
+.chitwan-contact-section {
+
+    background-size: 100%;
+}
+.testimonial-section {
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+/*slider blurry fix*/
+.flickity-enabled.is-draggable {
+    -webkit-filter: grayscale(0) blur(0);
+    filter: grayscale(0) blur(0);
+}
+
+.testimonial-carousel .flickity-page-dots .dot {
+	margin: 0 2px;
+	background: #1e3e1e;
+}
+
+.tcarousel-cell {
+  width: 100%;
+  height: auto;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.t-slide-section {
+ text-align: center;
+     padding: 0 70px;
+}
+.t-slide-section img.slide-timg {
+	width: 78px;
+    border-radius: 50%;
+}
+.t-slide-section .t-name {
+    font-family: "cstmgothamrd";
+    font-weight: 400;
+    margin-top: 10px;
+}
+.t-slide-section p.tslide-text {
+	font-family: "merriWIt";
+	font-size: 11px;
+    line-height: 1.6;
+	color: #000;
+	margin: 10px 0;
+}
+.t-slide-section a {
+	text-decoration: underline;
+	color: #000;
+	transition: visibility 3.5s, opacity 0.3s ease-in-out;
+}
+.t-slide-section a:hover {
+	opacity: 0.8;
+}
+.t-slide-section a span.tslide-btn-more {
+	font-family: "cstmgothamrd";
+	font-weight: 500;
+	font-size: 11px;
+	color: #000;
+}
+.t-slide-section img.tslide-logo {
+	display: block;
+    margin: auto;
+    width: 68px;
+}
+.tlogo-section {
+	padding: 0 75px 40px;
+}
+/* .tlogo-section .tlogos {
+    width: 82px;
+    height: 97px;
+} */
+h1.testimonial-head {
+    font-family: 'cstmolivia';
+    font-size: 54px;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #346735;
+}
+/*tlogo slider*/
+.tlogo-slider-section .carousel-cell {
+  width: 100%;
+  height: 100px;
+  margin-right: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.tlogo-carousel .flickity-viewport {
+	height: 100px!important;
+	padding-bottom: 8rem;
+}
+
+/*ends*/
+
+.reachus-section {
+    text-align: center;
+    padding-top: 85px;
+}
+.reachus-section h1.reachus-head {
+	font-family: "cstmolivia";
+    font-weight: 300;
+    color: #007A3E;
+    font-size: 70px;
+    line-height: 0.8;
+}
+.reachus-section h1.reachus-minihead {
+    font-family: "montsRegular";
+    font-weight: 400;
+    color: #737373;
+    font-size: 13px;
+    margin-top: 6px;
+    margin-bottom: 21px;
+}
+.reachus-section .map-container {
+	position: relative;
+}
+.reachus-section .map-container img {
+	width: 100%;
+
+}
+.reachus-absolute-container {
+	position: absolute;
+    top: 0;
+    left: 50%;
+    width: 70%;
+    transform: translateX(-50%);
+}
+.reachus-absolute-container .reachuscard-section {
+    background: #fff;
+    border-radius: 2px;
+}
+.reachus-absolute-container .reachuscard-section .reachuscard-row {
+    padding: 7px 20px 7px 0;
+}
+.reachus-absolute-container .reachuscard-section .reachuscard-row .reachuscard-contents {
+	display: flex;
+    padding: 5px;
+    border-bottom: 1px dashed #dcdbda;
+}
+.reachus-absolute-container .reachuscard-section .reachuscard-row:last-child .reachuscard-contents {
+	border: none;
+}
+.reachus-absolute-container .reachuscard-section .reachuscard-row .reachuscard-contents .card-left {
+	width: 50%;
+	text-align: left;
+}
+.reachus-absolute-container .reachuscard-section .reachuscard-row .reachuscard-contents .card-left h1.time-head	{
+	font-family: "merriW";
+	font-weight: 600;
+	color: #787877;
+    font-size: 12px;
+    margin-bottom: 7px;
+}
+.reachus-absolute-container .reachuscard-section .reachuscard-row .reachuscard-contents .card-left h1.place-head {
+	font-family: "cstmgothamrd";
+	font-weight: 500;
+	font-size: 11px;
+	font-style: italic;
+	color: #787877;
+}
+.reachus-absolute-container .reachuscard-section .reachuscard-row .reachuscard-contents .card-right {
+	width: 50%;
+	text-align: right;
+}
+.reachus-absolute-container .reachuscard-section .reachuscard-row .reachuscard-contents .card-right a {
+	font-family: "cstmgothamrd";
+	font-weight: 500;
+    font-size: 10px;
+    line-height: 1.6;
+	text-transform: uppercase;
+	text-decoration: underline;
+	color: #787877;
+}
+.reachus-absolute-container .googlelink-container {
+    margin-top: 35px;
+}
+.reachus-absolute-container .googlelink-container a {
+	text-decoration: none;
+}
+.reachus-absolute-container .googlelink-container a span {
+	padding: 10px;
+    background-color: #e8443b;
+    border: 2px solid #fff;
+    border-radius: 2px;
+    color: #fff;
+    font-family: "cstmabel";
+    font-weight: 500;
+    font-size: 14px;
+}
+#footermain-section {
+    /* top: 100%; */
+    position: absolute;
+    
+    width: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#footermain-section .footer-shape-container {
+	background-image: url(../img/footerbgsm.png);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 126px;
+}
+#footermain-section .footer-bgsection {
+	background-color: #007A3E;
+    background-size: 100% 100%;
+    margin-top: -1px;
+    padding: 20px 40px;
+}
+#footermain-section .footer-bgsection .footer-logo {
+	text-align: center;
+}
+#footermain-section .footer-bgsection .footer-logo img {
+	width: 80px;
+}
+#footermain-section .footer-bgsection .footer-flex-box {
+	display: flex;
+    padding-top: 10px;
+    flex-direction: column;
+}
+#footermain-section .footer-bgsection .footer-flex-box .footer-left {
+	text-align: center;
+}
+#footermain-section .footer-bgsection .footer-flex-box .footer-right {
+	text-align: center;
+}
+#footermain-section .footer-bgsection .footer-flex-box .footer-left p.footer-text {
+	font-family: "montsRegular";
+	font-weight: 400;
+	color: #fff;
+    font-size: 12px;
+    line-height: 1.6;
+    margin-bottom: 18px;
+    margin-top: 12px;
+}
+#footermain-section .footer-bgsection .footer-flex-box .footer-left .footer-social-icons a img {
+	width: 18px;
+}
+#footermain-section .footer-bgsection .footer-flex-box .footer-left .footer-social-icons {
+    display: flex;
+}
+#footermain-section .footer-bgsection .footer-flex-box .footer-left .footer-social-icons a {
+    color: #fff;
+    border-radius: 1px;
+    width: 34px;
+    height: 34px;
+    line-height: 34px;
+    display: block;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 4px;
+}
+#footermain-section .footer-bgsection .footer-flex-box .footer-left .footer-social-icons a:last-child {
+    margin-right: 0;
+}
+.fb-link {
+    background-color: #3b5998;
+}
+.ig-link {
+    background-color: #c32aa3;
+}
+.yt-link {
+    background-color: #b00;
+}
+.tt-link {
+    background-color: #010101;
+}
+.in-link {
+    background-color: #0077b5;
+}
+#footermain-section .footer-bgsection .footer-flex-box .footer-right .footer-links-row {
+	display: flex;
+	justify-content: center;
+    padding-top: 18px;
+}
+#footermain-section .footer-bgsection .footer-flex-box .footer-right .footer-links-row .footer-links {
+    padding: 0 12px;
+    border-right: 1px solid #fff;
+}
+#footermain-section .footer-bgsection .footer-flex-box .footer-right .footer-links-row .footer-links:last-child {
+	border: none;
+}
+#footermain-section .footer-bgsection .footer-flex-box .footer-right .footer-links-row .footer-links a {
+	color: #fff;
+  font-family: "cstmgothamrd";
+  font-weight: 500;
+  font-size: 12px;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+#footermain-section .footer-bgsection .footer-flex-box .footer-right .footer-links-row .footer-links a:hover {
+	color: #737373;
+}
+.footer-dashed-line {
+	max-width: 150px;
+  margin: auto;
+  padding: 0;
+}
+.footer-dashed-line hr {
+	border-bottom: 1px dashed #fff;
+	margin: 12px 0;
+}
+h6.powered-by {
+	color: #fff;
+  font-family: "cstmgothamrd";
+  font-weight: 500;
+  font-size: 8px;
+}
+h6.powered-by a {
+  text-decoration: underline;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+h6.powered-by a:hover {
+	color: #737373;
+}
+
+/*responsive*/
+@media (min-width: 375px) {
+	.logo-section {
+		/* padding-top: 55px; */
+	}
+}
+@media (min-width: 420px) {
+	body {
+		max-width: 100%;
+		margin: auto;
+	}
+}
+@media (min-width: 480px) {
+	body {
+		max-width: 480px;
+		margin: auto;
+	}
+
+}
+@media (min-width: 768px) {
+	body {
+		max-width: 100%;
+	}
+	.herotext {
+		font-size: 110px;
+	}
+	.herotext-section {
+    padding: 150px 0;
+	}
+	.separator-mark {
+	width: 14px;
+  	height: 14px;
+    margin: 8px auto 8px;
+	}
+	.chitwan-carousel-section .section-main-header {
+    font-size: 100px;
+	}
+	.chitwan-carousel-section .section-minihead {
+    font-size: 18px;
+	}
+	.chitwan-explore-section .explore-head-section h1.explore-head {
+		font-size: 100px;
+	}
+	.chitwan-explore-section .explore-head-section h1.section-minihead {
+		font-size: 18px;
+	}
+	.chitwan-hastag-section .hastag-head h1.hastag-text {
+		font-size: 45px;
+    line-height: 0.5;
+	}
+	.chitwan-hastag-section .hastag-head h1.section-minihead {
+    font-size: 17px;
+	}
+	.chitwan-hastag-section .hastag-head span.hastag-minihead {
+    font-size: 22px;
+	}
+	.chitwan-hastag-section .hastag-img-gallery .gallery-row .gallery-col {
+    height: 245px;
+	}
+	.t-slide-section img.slide-timg {
+		width: 102px;
+	}
+	.t-slide-section p.tslide-text {
+    font-size: 15px;
+		margin: 30px 110px;
+	}
+	.t-slide-section a span.tslide-btn-more {
+    font-size: 14px;
+	}
+	.t-slide-section img.tslide-logo {
+		width: 96px;
+	}
+	.flickity-viewport {
+    height: 300px!important;
+	}
+	.rooms-slider .flickity-viewport {
+		height: 100%!important;
+	}
+
+	.testimonial-carousel .flickity-viewport{
+		height: 213px;
+	}
+
+	.testimonial-carousel .flickity-page-dots .dot {
+    width: 14px;
+  	height: 14px;
+    margin: 0 6px;
+	}
+	.tlogo-section {
+		max-width: 500px;
+  	margin: auto;
+    padding: 20px 75px 90px;
+	}
+	.reachus-section h1.reachus-head {
+		font-size: 100px;
+	}
+	.reachus-section h1.reachus-minihead {
+		font-size: 18px;
+	}
+	.gallery-cell {
+    width: 26%;
+	}
+	.gallery-cell .slide-textbox h1.slide-head {
+    font-size: 15px;
+	}
+	.gallery-cell .slide-textbox p.text-discript {
+    font-size: 14px;
+    overflow: hidden;
+	}
+	.chitwan-explore-section .gallery-cell .slide-textbox a .slide-btn-more {
+    font-size: 13px;
+	}
+	.chitwan-explore-section .flickity-viewport {
+    height: 360px!important;
+	}
+	.reachus-absolute-container .reachuscard-section .reachuscard-row .reachuscard-contents .card-left h1.time-head {
+    font-size: 14px;
+    margin-bottom: 5px;
+	}
+	.reachus-absolute-container .reachuscard-section .reachuscard-row .reachuscard-contents .card-left h1.place-head {
+		font-size: 13px;
+	}
+	.reachus-absolute-container .reachuscard-section .reachuscard-row .reachuscard-contents .card-right a {
+    font-size: 11px;
+    transition: visibility 3.5s, opacity 0.3s ease-in-out;
+	}
+	.reachus-absolute-container .reachuscard-section .reachuscard-row .reachuscard-contents .card-right a:hover {
+		opacity: 0.8;
+	}
+	.reachus-absolute-container .reachuscard-section .reachuscard-row .reachuscard-contents .card-left {
+		padding-left: 10px;
+	}
+	.reachus-section .map-container, .room-reachus-section .map-container {
+    height: 365px;
+    overflow: hidden;
+	}
+	#footermain-section .footer-bgsection {
+    padding: 0px 210px 40px;
+	}
+	.chitwan-explore-section .explore-head-section{
+		padding-top: 50px;
+	}
+	#footermain-section .footer-shape-container {
+    height: 166px;
+	}
+	#footermain-section .footer-bgsection .footer-logo img {
+    width: 100px;
+	}
+	#footermain-section .footer-bgsection .footer-flex-box .footer-left p.footer-text {
+    line-height: 2;
+	}
+	.footer-dashed-line {
+    max-width: 160px;
+	}
+	.footer-dashed-line hr {
+		margin: 18px 0;
+	}
+	.chitwan-experience-section {
+		min-height: 100%;
+	}
+	.chitwan-experience-section {
+    min-height: 900px;
+	}
+	.chitwan-experience-section .experience-content-section h1.theme-text {
+    font-size: 125px;
+	}
+	#footermain-section .footer-bgsection .footer-flex-box {
+		padding-top: 20px;
+	}
+	#footermain-section .footer-bgsection .footer-flex-box .footer-left .footer-social-icons {
+    padding-top: 10px;
+		padding-bottom: 35px;
+	}
+}
+
+
+@media (min-width: 1200px) {
+.herotext-section {
+    width: 50%;
+  	margin: auto;
+  	display: flex;
+  	align-items: center;
+	}
+	.herotext {
+		font-size: 70px;
+	}
+	.separator-mark {
+    width: 10px;
+  	height: 10px;
+	}
+	.chitwan-carousel-section {
+    height: 700px;
+	}
+	.chitwan-carousel-section, .chitwan-explore-section, .chitwan-contact-section {
+		background-size: contain;
+	}
+	.chitwan-carousel-section .gallery-cell {
+    width: 26%;
+	}
+	.chitwan-explore-section .gallery-cell {
+    width: 18%;
+	}
+	#footermain-section .footer-bgsection .footer-flex-box .footer-left p.footer-text {
+    margin-bottom: 10px;
+    line-height: 1.8;
+	}
+	#footermain-section .footer-bgsection .footer-flex-box .footer-left .footer-social-icons img {
+    width: 100px;
+	}
+	#footermain-section .footer-bgsection .footer-flex-box .footer-left {
+    width: 40%;
+	}
+	#footermain-section .footer-bgsection .footer-flex-box .footer-right {
+		width: 60%;
+	}
+	#footermain-section .footer-bgsection .footer-flex-box .footer-right .footer-links-row .footer-links {
+    padding: 0 15px;
+	}
+	h6.powered-by {
+    font-size: 10px;
+  	margin-top: 12px;
+	}
+	#footermain-section .footer-bgsection .footer-logo img {
+    width: 90px;
+	}
+	.chitwan-hastag-section .hastag-img-gallery .gallery-row .gallery-col {
+    height: 370px;
+    width: 100%;
+	}
+	.chitwan-experience-section {
+		/* background-image: url(../img/bgimg28388.jpg); */
+	}
+	.chitwan-hastag-section {
+    padding-top: 100px;
+	}
+}
+@media (max-width: 1920px) and (min-height: 1080px) {
+	.chitwan-first-section {
+    min-height: 1050px;
+	}
+	.logo-section {
+    padding-top: 125px;
+	}
+	.herotext-section {
+    padding: 260px 0;
+	}
+	.chitwan-carousel-section .gallery .flickity-viewport {
+    height: 600px!important;
+	}
+	.chitwan-carousel-section .gallery-cell .slide-img-box {
+		height: 380px;
+	}
+	.chitwan-carousel-section .gallery-cell .slide-img-box img {
+		height: 380px;
+	}
+	.chitwan-hastag-section .hastag-img-gallery .gallery-row .gallery-col {
+    height: 446px;
+	}
+	.reachus-absolute-container {
+    width: 28%;
+	}
+    .chitwan-carousel-section {
+        height: 790px;
+    }
+    .chitwan-carousel-section .gallery-cell .slide-text-small {
+        padding: 15px 40px 0;
+    }
+}
+
+
+.chitwan-explore-section.container, .chitwan-contact-section.container, footer#footermain-section.container {
+	padding: 0;
+}
+
+/*fadeinanimation*/
+.fadingEffect {
+  width:100%;
+  background:white;
+  -moz-animation: showHide 5s ease-in alternate infinite; /* Firefox */
+  -webkit-animation: showHide 5s ease-in alternate infinite; /* Safari and Chrome */
+  -ms-animation: showHide 5s ease-in alternate infinite; /* IE10 */
+  -o-animation: showHide 5s ease-in alternate infinite; /* Opera */
+  animation: showHide 5s ease-in alternate infinite;
+}
+@-webkit-keyframes showHide { /* Chrome, Safari */
+  0% {width:100%}
+  40% {width:0%}
+  60% {width:0%;}
+  100% {width:100%;}
+}
+@-moz-keyframes showHide { /* FF */
+  0% {width:100%}
+  40% {width:0%}
+  60% {width:0%;}
+  100% {width:100%;}
+}
+@-ms-keyframes showHide { /* IE10 */
+  0% {width:100%}
+  40% {width:0%}
+  60% {width:0%;}
+  100% {width:100%;}
+}
+@-o-keyframes showHide { /* Opera */
+  0% {width:100%}
+  40% {width:0%}
+  60% {width:0%;}
+  100% {width:100%;}
+}
+@keyframes showHide {
+  0% {width:100%}
+  40% {width:0%}
+  60% {width:0%;}
+  100% {width:100%;}
+}
+
+/*room pages css*/
+.rupakotroom-first-section {
+  background-image: url(../img/bgimg6728.jpg);
+  background-size: cover;
+  min-height: -webkit-fill-available;
+  min-height: 710px;
+  height: 100%;
+  background-position: center;
+  background-size: 100% 100%;
+}
+.logo-section {
+  text-align: center;
+  padding-top: 40px;
+}
+.logomain-home {
+  max-width: 163px;
+	width: 100%;
+}
+.herotext-section {
+	text-align: center;
+  padding: 80px 0;
+}
+.herotext {
+	font-family: "cstmolivia";
+	font-weight: 300;
+	color: #fff;
+	font-size: 70px;
+	letter-spacing: 1.6px;
+  margin: 0;
+}
+.separator-mark {
+	border: 3px solid #fff;
+	width: 12px;
+	height: 12px;
+	display: block;
+	border-radius: 50%;
+  margin: 0 auto 4px;
+}
+.our-rooms-section {
+	background-image: url(../img/bgpattern.png);
+  background-size: 100%;
+	text-align: center;
+	padding: 0;
+  padding-bottom: 60px;
+}
+.our-rooms-section .section-main-header {
+	font-family: "cstmolivia";
+	font-weight: 300;
+	color: #346735;
+	font-size: 70px;
+  padding-top: 87px;
+  line-height: 0.8;
+  margin-bottom: 0;
+}
+.our-rooms-section .section-minihead {
+	font-family: "merriW";
+	font-weight: 200;
+	color: #737373;
+	font-size: 13px;
+  margin-top: 6px;
+}
+.rupakotroom-gallery-fix {
+  padding-top: 25px;
+}
+/*slider main home*/
+.our-roomslider-section .gallery {
+	/*height: 320px;*/
+	width: 100%;
+	margin: 35px auto 0;
+}
+.our-roomslider-section .gallery .flickity-slider {
+	perspective: 1000px;
+	transform-style: preserve-3d;
+}
+.our-roomslider-section .gallery .flickity-viewport {
+  height: 350px!important;
+}
+.our-roomslider-section .gallery-cell {
+  width: 80%;
+  margin-right: 10px;
+}
+.our-roomslider-section #roomSlider.is-fullscreen .gallery-cell {
+  height: 100%;
+  width: 100%;
+}
+.our-roomslider-section #roomSlider.is-fullscreen .gallery-cell .slide-img-box {
+	height: 100%;
+}
+.our-roomslider-section #roomSlider.is-fullscreen .gallery-cell img {
+	max-width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 0;
+}
+.our-roomslider-section .gallery-cell .slide-img-box {
+	display: block;
+	position: relative;
+	height: 280px;
+}
+.our-roomslider-section .gallery-cell .slide-img-box img {
+	border-radius: 20px;
+	width: 100%;
+  height: 280px;
+}
+
+.our-roomslider-section .gallery .flickity-page-dots {
+	bottom: 25px;
+}
+
+/*slider ends*/
+
+.ourroom-main-section {
+	width: 100%;
+}
+.ourroom-main-section h2.main-header {
+	font-family: "merriWIt";
+  font-weight: 300;
+  color: #333333;
+  font-size: 20px;
+  margin-bottom: 14px;
+  margin-top: 35px;
+}
+.room-type-section {
+  padding: 10px 0;
+}
+.room-type-section .room-type-box {
+  width: 100%;
+  display: flex;
+}
+.room-type-section .room-type-box .room-text {
+	flex: 1 50%;
+	padding: 50px 20px;
+}
+.room-type-section .room-type-box .room-slides {
+	flex: 1 50%;
+}
+.room-type-section .room-type-box .room-slides img {
+	width: 100%;
+}
+.room-type-section .room-type-box h2.type-head {
+	font-family: "merriW";
+	font-weight: 300;
+	color: #333;
+	font-size: 24px;
+	margin: 15px 0;
+}
+.icon-section {
+  padding-bottom: 15px;
+}
+.room-text .book-now-btn {
+    position: static;
+    transform: none;
+    text-align: center;
+    margin-top: 10px;
+}
+.room-text .book-now-btn .book-btn:hover {
+    background: rgb(52 103 53);
+    opacity: 0.8;
+}
+.room-type-section .room-type-box .room-text .book-now-btn .book-btn {
+    margin-left: auto;
+    margin-right: 0;
+}
+.room-type-section .room-type-box:nth-child(even) .room-text .book-now-btn .book-btn {
+    margin-right: auto;
+    margin-left: 0;
+}
+.room-type-section .room-type-box .room-type-icon {
+  height: 40px;
+}
+.room-type-section .room-type-box .room-details {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.bui-badge {
+	font-family: "cstmgothamrd";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  background-color: #333;
+  border: 1px solid transparent;
+  border-radius: 2px;
+  color: #fff;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: -webkit-inline-flex;
+  display: inline-flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  padding: 1px 4px;
+  vertical-align: middle;
+}
+.bui-badge--outline {
+	background: none;
+  color: #333;
+}
+svg.bk-icon {
+  height: 18px;
+  width: 18px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: -2px;
+  margin-left: -3px;
+  padding-right: 2px;
+  margin-right: 2px;
+}
+.bk-icon {
+  max-width: 256px;
+  max-height: 256px;
+  overflow: hidden;
+}
+.ourroom-main-section h2.main-header:first-child {
+	margin-top: 8px;
+}
+.ourroom-main-section p {
+	font-family: "cstmgothamrd";
+	font-weight: 200;
+	font-size: 14px;
+  line-height: 1.6;
+  color: #3b3b3b;
+}
+.section-minihead p {
+    font-family: "cstmgothamrd";
+    /* font-weight: bold; */
+    font-size: 14px;
+    line-height: 1.6;
+    color: #3b3b3b;
+}
+.ourroom-main-section .bold-text {
+	font-weight: 600;
+	text-transform: capitalize;
+	font-size: 14px;
+}
+.room-amenities-section {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  max-width: 300px;
+  margin: 20px auto 0;
+}
+.room-amenities-section .amenities-icon-box {
+  flex: 50%;
+  height: 130px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 14px;
+}
+.room-amenities-section .amenities-icon-box img {
+	height: 32px;
+  margin-bottom: 10px;
+}
+.room-amenities-section .amenities-icon-box p {
+	font-family: "merriWIt";
+  font-weight: 300;
+  color: #383838;
+  font-size: 12px;
+}
+
+.room-reachus-section {
+  text-align: center;
+  background-image: url(../img/bgpattern.png);
+  background-size: 100%;
+  padding: 0;
+}
+.room-reachus-section h1.reachus-head {
+	font-family: "cstmolivia";
+  font-weight: 300;
+  color: #346735;
+  font-size: 70px;
+  line-height: 0.8;
+}
+.room-reachus-section h1.reachus-minihead {
+  font-family: "merriW";
+  font-weight: 200;
+  color: #737373;
+  font-size: 13px;
+  margin-top: 6px;
+  margin-bottom: 21px;
+}
+.room-reachus-section .map-container {
+	position: relative;
+}
+.room-reachus-section .map-container img {
+	width: 100%;
+  margin-top: 39px;
+}
+.chitwan-roomexplore-section .gallery .flickity-viewport {
+	min-height: 390px;
+}
+.chitwan-roombg-section {
+	background-image: url(../img/roombg7281.jpg);
+  background-size: 100% 100%;
+  min-height: 494px;
+  position: relative;
+}
+.chitwan-roombg-section .roombg-content-section {
+	position: absolute;
+	width: 100%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+}
+.chitwan-roombg-section .roombg-content-section h2.theme-text {
+	font-family: "cstmolivia";
+	font-weight: 300;
+	color: #fff;
+	font-size: 80px;
+	line-height: 0.8;
+  margin-bottom: 60px;
+}
+.chitwan-roombg-section .roombg-content-section .booknow-btn {
+  width: 124px;
+  margin: auto;
+  height: 44px;
+  border: 2px solid #fff;
+  background: transparent;
+  box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.4s ease-in-out;
+}
+.chitwan-roombg-section .roombg-content-section .booknow-btn a {
+	text-decoration: none;
+	display: block;
+	width: 100%;
+	height: 100%;
+	line-height: 2.3;
+}
+.chitwan-roombg-section .roombg-content-section .booknow-btn a .book-btn {
+	font-family: "cstmabel";
+	font-weight: 500;
+	font-size: 18px;
+	color: #fff;
+}
+.chitwan-roombg-section .roombg-content-section .booknow-btn:hover {
+	background: rgb(52 103 53);
+}
+
+/*gallery pages css*/
+.rupakotgallery-first-section {
+  background-image: url(../img/gallerybgimg12839.jpg);
+  background-size: cover;
+  min-height: -webkit-fill-available;
+  min-height: 710px;
+  height: 100%;
+  background-position: center;
+  background-size: 100% 100%;
+}
+.logo-section {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: rgb(6 51 6 / 100%);
+}
+.logo-section ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.logo-section ul li {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.logo-section ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-family: "cstmabel";
+  /*font-weight: 400;*/
+  position: relative;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.logo-section ul li a:hover:after, .overlay ul li a:focus:after, .overlay ul li a:active:after {
+  width: 100%;
+}
+.logo-section ul li a:after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  width: 0%;
+  transform: translateX(-50%);
+  height: 3px;
+  background: #FFF;
+  transition: 0.35s;
+}
+.logo-section ul li:nth-child(1) a:after {
+	display: none;
+}
+.logo-section ul li:last-child a {
+	border: 1px solid #000;
+	background-color: #000;
+	padding: 8px 8px;
+	border-radius: 4px;
+}
+.logomain-home {
+  max-width: 163px;
+	width: 100%;
+}
+.herotext-section {
+	text-align: center;
+  padding: 80px 0;
+}
+.herotext {
+	font-family: "cstmolivia";
+	font-weight: 300;
+	color: #fff;
+	font-size: 70px;
+	letter-spacing: 1.6px;
+  margin: 0;
+}
+.separator-mark {
+	border: 3px solid #fff;
+	width: 12px;
+	height: 12px;
+	display: block;
+	border-radius: 50%;
+  margin: 0 auto 4px;
+}
+.book-now-btn {
+  display: block;
+  flex: 1 100%;
+  position: absolute;
+  left: 50%;
+  bottom: -90px;
+  transform: translateX(-50%);
+}
+.book-now-btn .book-btn {
+  width: 150px;
+  margin: auto;
+  height: 45px;
+  border: 3px solid #fff;
+	border-radius: 25px;
+  background: rgb(0 122 62);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.4s ease-in-out;
+}
+.book-now-btn .book-btn:hover {
+	border: 2px solid #fff;
+	background: transparent;
+}
+.book-now-btn .book-btn a {
+	text-decoration: none;
+	font-family: "montsmedium";
+	width: 100%;
+	height: 100%;
+  font-weight: 500;
+  font-size: 16px;
+  color: #fff;
+  line-height: 2.3;
+}
+
+.rupakotgallery-main-section {
+	text-align: center;
+  padding: 0;
+}
+#gallerySection {
+	background-image: url(../img/pattern2374.png);
+	background-size: 100%;
+}
+.rupakotgallery-main-section h2.section-main-header {
+	font-family: "cstmolivia";
+	font-weight: 300;
+	color: #007A3E;
+	font-size: 70px;
+  padding-top: 57px;
+  margin-bottom: 0;
+}
+.rupakotgallery-main-section h2.section-minihead {
+  font-family: "merriW";
+  font-weight: 200;
+  color: #737373;
+  font-size: 13px;
+  margin-top: 6px;
+}
+
+.pd-tp-50 {
+	padding-top: 50px!important;
+}
+.mg-tp-35 {
+	margin-top: 35px;
+}
+.mg-bt-0 {
+	margin-bottom: 0;
+}
+.pd-tp-80 {
+	padding-top: 80px;
+}
+.reachuscard-section {
+	box-shadow: rgb(0 0 0 / 15%) 0px 5px 15px 0px;
+}
+@media (min-width: 400px) and (max-width: 600px) {
+	.chitwan-explore-section .gallery-cell .slide-imgbox img {
+    height: 220px;
+	}
+	.chitwan-carousel-section .gallery-cell .slide-img-box,
+	.chitwan-carousel-section .gallery-cell .slide-img-box img {
+    height: 300px;
+	}
+	.footer-dashed-line {
+    max-width: 140px;
+  	margin-left: auto;
+	}
+}
+@media (max-width: 480px) and (min-height: 790px) {
+	.herotext-section {
+    padding: 100px 0;
+	}
+	.separator-mark {
+    width: 14px;
+  	height: 14px;
+    margin: 12px auto 12px;
+	}
+}
+@media (min-width: 768px) {
+	.our-roomslider-section .gallery-cell {
+    width: 26%;
+	}
+	.our-rooms-section .section-main-header, .rupakotgallery-main-section h2.section-main-header, .room-reachus-section h1.reachus-head {
+		font-size: 100px;
+	}
+	.our-rooms-section .section-minihead, .rupakotgallery-main-section h2.section-minihead, .room-reachus-section h1.reachus-minihead {
+    font-size: 18px;
+	}
+}
+@media (min-width: 1200px) {
+	.herotext-section {
+    padding: 160px 0;
+	}
+	#gallerySection {
+    background-size: contain;
+	}
+	.our-rooms-section {
+    background-image: url(../img/bgpattern154.png);
+  	background-size: contain;
+	}
+	.room-reachus-section {
+    background-image: url(../img/bgpattern.png);
+  	background-size: contain;
+	}
+	.chitwan-explore-section.chitwan-roomexplore-section {
+		padding-bottom: 80px;
+	}
+	.chitwan-roomexplore-section .gallery .flickity-page-dots {
+		bottom: -10px;
+	}
+	.room-amenities-section {
+	    max-width: 610px;
+	}
+	.room-amenities-section .amenities-icon-box {
+    padding: 0 30px;
+    flex: 30%;
+	}
+	/*dashed style*/
+	.room-amenities-section .amenities-icon-box:nth-child(1) {
+		border-right: 1px dashed #ccc;
+		border-bottom: 1px dashed #ccc;
+	}
+	.room-amenities-section .amenities-icon-box:nth-child(2) {
+		border-left: 1px dashed #ccc;
+		border-right: 1px dashed #ccc;
+		border-bottom: 1px dashed #ccc;
+	}
+	.room-amenities-section .amenities-icon-box:nth-child(3) {
+		border-left: 1px dashed #ccc;
+		border-bottom: 1px dashed #ccc;
+	}
+	.room-amenities-section .amenities-icon-box:nth-child(4) {
+		border-right: 1px dashed #ccc;
+		border-top: 1px dashed #ccc;
+	}
+	.room-amenities-section .amenities-icon-box:nth-child(5) {
+		border-left: 1px dashed #ccc;
+		border-right: 1px dashed #ccc;
+		border-top: 1px dashed #ccc;
+	}
+	.room-amenities-section .amenities-icon-box:nth-child(6) {
+		border-left: 1px dashed #ccc;
+		border-top: 1px dashed #ccc;
+	}
+	/*ends*/
+	.chitwan-explore-section .explore-head-section {
+	    padding-top: 80px;
+	}
+	.chitwan-explore-section .gallery .flickity-page-dots{
+		bottom: -45px;
+	}
+	.rupakotroom-first-section {
+		background-image: url(../img/bgimg1829374.jpg);
+	}
+	.chitwan-hastag-section .hastag-img-gallery {
+	    padding-top: 28px;
+	}
+	.reachus-section {
+	    padding-top: 110px;
+	}
+	.rupakotgallery-first-section {
+		background-image: url(../img/bgimg5435679.jpg);
+	}
+	.chitwan-explore-section.chitwan-roomexplore-section {
+	    padding-bottom: 120px;
+	}
+	.chitwan-first-section, .rupakotgallery-first-section, .rupakotroom-first-section {
+		position: relative;
+	}
+	.herotext-section {
+		padding: 0;
+	    position: absolute;
+	    width: 100%;
+	    max-width: 630px;
+	    top: 55%;
+	    left: 50%;
+	    transform: translate(-50%,-50%);
+	    flex-wrap: wrap;
+	}
+}
+@media (max-width: 1199px) {
+	/*dashed style*/
+	.room-amenities-section .amenities-icon-box:nth-child(1) {
+		border-right: 1px dashed #ccc;
+		border-bottom: 1px dashed #ccc;
+	}
+	.room-amenities-section .amenities-icon-box:nth-child(2) {
+		border-left: 1px dashed #ccc;
+		border-bottom: 1px dashed #ccc;
+	}
+	.room-amenities-section .amenities-icon-box:nth-child(3) {
+		border-right: 1px dashed #ccc;
+		border-bottom: 1px dashed #ccc;
+		border-top: 1px dashed #ccc;
+	}
+	.room-amenities-section .amenities-icon-box:nth-child(4) {
+		border-left: 1px dashed #ccc;
+		border-bottom: 1px dashed #ccc;
+		border-top: 1px dashed #ccc;
+	}
+	.room-amenities-section .amenities-icon-box:nth-child(5) {
+		border-right: 1px dashed #ccc;
+		border-top: 1px dashed #ccc;
+	}
+	.room-amenities-section .amenities-icon-box:nth-child(6) {
+		border-left: 1px dashed #ccc;
+		border-top: 1px dashed #ccc;
+	}
+	/*ends*/
+}
+
+@media (min-width: 1600px) {
+	
+	.herotext-section {
+	    max-width: 760px;
+	}
+	.herotext-section .herotext {
+		font-size: 100px;
+	}
+	.hastag-booknow-btn{
+		top: 87%;
+	}
+}
+
+/*gallery slider*/
+@media (max-width: 480px) {
+	.gallery-main-section {
+	    width: 100%;
+	    margin: auto;
+	}
+}
+
+.gallery-main-section {
+	margin-top: 30px;
+}
+
+.gallery-main-section .carousel-cell {
+  width: 90%;
+  height: 320px;
+  margin-right: 10px;
+  overflow: hidden;
+}
+
+.gallery-main-section .carousel.is-fullscreen .carousel-cell {
+	height: 100%;
+	width: 100%;
+}
+
+.gallery-main-section .carousel-cell-image {
+  	display: block;
+    border-radius: 20px;
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+
+.gallery-main-section .carousel.is-fullscreen .carousel-cell-image {
+  max-width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 0;
+}
+.flickity-page-dots .dot {
+	background: #346735;
+}
+.flickity-enabled.is-fullscreen .flickity-viewport {
+	height: 100%!important;
+}
+.gallery-main-section .carousel .flickity-page-dots {
+	bottom: -35px;
+}
+.flickity-enabled.is-fullscreen .flickity-page-dots {
+	bottom: 10px;
+}
+@media (min-width: 1200px) {
+	.gallery-main-section .carousel-cell {
+	    width: 26%;
+	}
+	.gallery-main-section .carousel-cell-image {
+		height: 300px;
+	}
+}
+
+/*overlay menu*/
+/*overlay menu*/
+.button_container {
+  position: absolute;
+  top: 3.6%;
+  right: 2%;
+  height: 27px;
+  width: 35px;
+  cursor: pointer;
+  z-index: 99999;
+  transition: opacity 0.25s ease;
+}
+.button_container:hover {
+  opacity: 0.7;
+}
+.button_container.active .top {
+  transform: translateY(11px) translateX(0) rotate(45deg);
+  background: #007A3E;
+}
+.button_container.active .middle {
+  opacity: 0;
+  background: #007A3E;
+}
+.button_container.active .bottom {
+  transform: translateY(-11px) translateX(0) rotate(-45deg);
+  background: #007A3E;
+}
+.button_container span {
+  background: #007A3E;
+  border: none;
+  height: 5px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all 0.35s ease;
+  cursor: pointer;
+}
+.button_container span:nth-of-type(2) {
+  top: 11px;
+}
+.button_container span:nth-of-type(3) {
+  top: 22px;
+}
+
+.overlay {
+  position: fixed;
+  background: #fff;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 0%;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.35s, visibility 0.35s, height 0.35s;
+  overflow: hidden;
+  z-index: 9999;
+}
+.overlay.open {
+  opacity: 1;
+  visibility: visible;
+  height: 100%;
+}
+.overlay.open li {
+  animation: fadeInRight 0.5s ease forwards;
+  animation-delay: 0.35s;
+}
+.overlay.open li:nth-of-type(2) {
+  animation-delay: 0.4s;
+}
+.overlay.open li:nth-of-type(3) {
+  animation-delay: 0.45s;
+}
+.overlay.open li:nth-of-type(4) {
+  animation-delay: 0.5s;
+}
+.overlay .overlay-logo {
+    text-align: center;
+}
+.overlay .overlay-logo .overlaylogo-main {
+    max-width: 150px;
+}
+.overlay nav {
+  position: relative;
+  height: 90%;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 50px;
+  font-family: "Varela Round", serif;
+  font-weight: 400;
+  text-align: center;
+}
+.overlay ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  display: inline-block;
+  position: relative;
+  height: 100%;
+}
+.overlay ul li {
+  display: block;
+  height: 25%;
+  height: calc(100% / 7);
+  min-height: 50px;
+  position: relative;
+  opacity: 0;
+}
+.overlay ul li a {
+	position: relative;
+	color: #007A3E;
+	font-size: 26px;
+	text-decoration: none;
+	overflow: hidden;
+	font-family: "montsmedium";
+	font-weight: 400;
+	text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.overlay ul li a:hover:after, .overlay ul li a:focus:after, .overlay ul li a:active:after {
+  width: 100%;
+}
+.overlay ul li a:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0%;
+  transform: translateX(-50%);
+  height: 3px;
+  background: #007A3E;
+  transition: 0.35s;
+}
+.overlay ul li:first-child a:after {
+	display: none;
+}
+.overlay ul li:first-child {
+  margin-bottom: 20px;
+}
+@keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    left: 20%;
+  }
+  100% {
+    opacity: 1;
+    left: 0;
+  }
+}
+
+/*about page style*/
+.chitwan-about-section {
+    background-image: url(../img/bgpattern.png);
+    background-size: contain;
+    text-align: center;
+    padding: 0 5px;
+}
+.adoutus-slider-section .gallery {
+	position: relative;
+	perspective: 1000px;
+	transform-style: preserve-3d;
+	width: 100%;
+	margin: 35px auto 0;
+}
+.adoutus-slider-section .gallery .flickity-slider {
+	perspective: 1000px;
+	transform-style: preserve-3d;
+}
+.adoutus-slider-section .gallery .flickity-viewport {
+    height: 420px!important;
+}
+.adoutus-slider-section .gallery-cell {
+  width: 80%;
+  margin-right: 10px;
+}
+.adoutus-slider-section .gallery-cell .slide-img-box {
+	display: block;
+	position: relative;
+	height: 280px;
+}
+.adoutus-slider-section .gallery-cell .slide-img-box img {
+	border-radius: 20px;
+	width: 100%;
+    height: 280px;
+    object-fit: cover;
+}
+.aboutus-text-section.padding-fix-slider {
+    padding-top: 60px;
+}
+.adoutus-slider-section .gallery-cell .slide-text-content h1.slide-float-text {
+    text-align: center;
+    margin-top: 15px;
+    font-family: "cstmolivia";
+    font-weight: 300;
+    color: #346735;
+    font-size: 38px;
+}
+.adoutus-slider-section .gallery-cell .slide-text-content {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 3.5s, opacity 0.3s ease-in-out;
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+.adoutus-slider-section .gallery .flickity-page-dots {
+    bottom: -45px;
+}
+.adoutus-slider-section .gallery-cell.is-selected .slide-text-content {
+    visibility: visible;
+    opacity: 1;
+}
+.adoutus-slider-section .gallery-cell .slide-text-small {
+    font-family: "merriWIt";
+    font-weight: 500;
+    font-size: 13px;
+    color: #000;
+    width: 100%;
+    display: block;
+    padding: 15px 0 0;
+    line-height: 1.4;
+}
+.chitwan-about-section .section-main-header {
+	font-family: "cstmolivia";
+	font-weight: 300;
+	color: #007A3E;
+	font-size: 70px;
+    padding-top: 57px;
+    line-height: 0.8;
+    margin-bottom: 0;
+}
+.chitwan-about-section .section-minihead {
+	font-family: "merriW";
+	font-weight: 200;
+	color: #737373;
+	font-size: 13px;
+    margin-top: 6px;
+}
+.adoutus-slider-section {
+  margin: 35px 0 0 0;
+}
+.aboutus-text-section {
+	width: 100%;
+  padding: 0 20px;
+}
+.aboutus-text-section p {
+	font-family: "cstmgothamrd";
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 1.6;
+    color: #3b3b3b;
+}
+
+@media (min-width: 768px) {
+	.adoutus-slider-section .gallery-cell {
+	    width: 26%;
+	}
+	.chitwan-about-section .section-main-header {
+	    font-size: 100px;
+	}
+	.chitwan-about-section .section-minihead {
+		font-size: 18px;
+	}
+}
+@media (min-width: 1200px) {
+	.aboutus-text-section {
+	    max-width: 1200px;
+	    margin: auto;
+	    padding: 0 70px;
+	}
+	.aboutus-text-section p {
+		font-size: 15px;
+		padding-bottom: 10px;
+	}
+}
+
+/*contact page style*/
+.contact-section-main {
+	background-image: url(../img/bgpattern.png);
+    background-size: 100%;
+    text-align: center;
+    padding: 0 20px;
+}
+.contact-section-main h2.section-main-header {
+	font-family: "cstmolivia";
+	font-weight: 300;
+	color: #346735;
+	font-size: 70px;
+    padding-top: 57px;
+    line-height: 0.8;
+    margin-bottom: 0;
+}
+.contact-section-main h2.section-minihead {
+	font-family: "merriW";
+	font-weight: 200;
+	color: #737373;
+	font-size: 13px;
+    margin-top: 6px;
+}
+.book-main-section {
+    margin-top: 30px;
+    background-color: #29512A;
+    border-radius: 10px;
+    padding: 30px 20px;
+}
+.book-main-section .booking-section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.book-main-section .booking-section .booking-col {
+	display: flex;
+	flex-direction: column;
+    margin-bottom: 15px;
+}
+.book-main-section .booking-section .booking-col label {
+	font-family: "merriW";
+	font-weight: 300;
+	color: #dda505;
+	margin-bottom: 6px;
+}
+.text-discript{
+	font-family: "merriWIt";
+    font-weight: 500;
+	color: #dda505;
+    font-size: 16px;
+    width: 100%;
+    display: block;
+    /* padding: 15px 0 0; */
+    line-height: 1.4;
+  }
+.booking-section .booking-col input#checkIndate, .booking-section .booking-col input#checkOutdate {
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: none;
+	cursor: pointer;
+	font-family: "merriWIt";
+	font-weight: 300;
+	font-size: 14px;
+	text-align: center;
+	color: #fff;
+	opacity: 0.8;
+    padding: 8px 5px;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #fff;
+  opacity: 0.8; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #fff;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: #fff;
+}
+.booking-section .booking-col .custom-roomselect {
+	border-bottom: 1px solid #fff;
+}
+.custom-roomselect select#roomOccupancy {
+	border: none;
+	background: none;
+	cursor: pointer;
+	font-family: "merriWIt";
+	font-weight: 300;
+	font-size: 14px;
+	text-align: center;
+    text-align-last: center;
+    -moz-text-align-last: center;
+	color: rgba(255,255,255,0.8);
+    width: 157px;
+    padding: 8px 5px;
+}
+.book-main-section .booking-search-button, .booking-form-section .book-now-button {
+	width: 140px;
+    margin: 25px auto;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    background: #dda505;
+    transition: 0.3s ease-in-out;
+}
+.book-main-section .booking-search-button:hover , .booking-form-section .book-now-button:hover {
+	opacity: 0.8;
+}
+.booking-form-section .book-now-button input {
+	border: none;
+	background: none;
+    font-family: "MerriW";
+    font-weight: 300;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    line-height: 2.4;
+}
+.book-main-section a , .book-now-button a {
+	text-decoration: none;
+    width: 100%;
+    height: 100%;
+    line-height: 2.4;
+}
+.booking-search-button span.btn-text, .book-now-button a span {
+	font-family: "cstmabel";
+	font-weight: 300;
+	color: #fff;
+
+}
+.booking-form-section {
+    margin-top: 20px;
+    border: 1px solid #29512A;
+    border-radius: 5px;
+    padding: 20px;
+    display: none;
+    transition: 0.5s ease-in-out;
+}
+.booking-form-section h2.form-header {
+	font-family: "merriWIt";
+	font-weight: 300;
+	color: #346735;
+    margin-bottom: 45px;
+    margin-top: 20px;
+}
+.booking-form-section .booking-row {
+	display: flex;
+	flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 18px;
+}
+
+.booking-form-section .booking-row .booking-col:first-child {
+	margin-right: 5px;
+}
+.booking-form-section .booking-row .booking-col:last-child {
+	margin-left: 5px;
+}
+.booking-form-section .booking-row .booking-col input {
+	border: none;
+	border-bottom: 1px solid #dda505;
+	background: none;
+	font-family: "merriWIt";
+	font-weight: 300;
+	font-size: 14px;
+	text-align: center;
+	color: #3b3b3b;
+	opacity: 0.8;
+	width: 140px;
+    padding: 8px 5px;
+}
+.booking-form-section .booking-row .booking-col input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #3b3b3b;
+  opacity: 0.8; /* Firefox */
+}
+
+.booking-form-section .booking-row .booking-col input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #3b3b3b;
+}
+
+.booking-form-section .booking-row .booking-col input::-ms-input-placeholder { /* Microsoft Edge */
+  color: #3b3b3b;
+}
+.booking-col .custom-roomselect {
+	border-bottom: 1px solid #dda505;
+    position: relative;
+}
+.booking-col .custom-roomselect .tooltiptext {
+    visibility: hidden;
+    width: 230px;
+    background-color: #1b3a1b;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 6px;
+    position: absolute;
+    z-index: 1;
+    bottom: 150%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: 'cstmgothamrd';
+    font-weight: 300;
+    letter-spacing: 0.4px;
+    font-size: 14px;
+}
+.booking-col .custom-roomselect .tooltiptext:after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #1b3a1b transparent transparent transparent;
+}
+.booking-col .custom-roomselect:hover .tooltiptext{
+    visibility: visible;
+}
+.booking-form-section .booking-row .booking-col select {
+	border: none;
+	background: none;
+	cursor: pointer;
+	font-family: "merriWIt";
+	font-weight: 300;
+	font-size: 14px;
+	text-align: center;
+    text-align-last: center;
+    -moz-text-align-last: center;
+    color: rgb(59 59 59 / 80%);
+    width: 140px;
+    opacity: 0.8;
+    padding: 8px 5px;
+}
+.booking-row.add-remove-field .flex-box-here {
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+.booking-row.add-remove-field {
+  position: relative;
+}
+.closeBtn {
+  position: absolute;
+  left: 130px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  font-family: "merriWIt";
+  font-weight: 300;
+  font-size: 14px;
+}
+.closeBtn:hover {
+  opacity: 1;
+}
+.closeBtn:before, .closeBtn:after {
+  position: absolute;
+  left: -20px;
+  content: ' ';
+  height: 18px;
+  width: 2px;
+  background-color: #346735;
+}
+.closeBtn:before {
+  transform: rotate(45deg);
+}
+.closeBtn:after {
+  transform: rotate(-45deg);
+}
+
+.plus-button {
+  background-color: #fff;
+  font-size: 16px;
+  height: 2.5em;
+  width: 2.5em;
+  border-radius: 999px;
+  position: relative;
+  cursor: pointer;
+  font-family: "merriWIt";
+  font-weight: 300;
+  font-size: 14px;
+  color: #346735;
+}
+.plus-button:before, .plus-button:after {
+  content: "";
+  display: block;
+  background-color: #346735;
+  position: absolute;
+  top: 50%;
+  left: -23%;
+  transform: translate(-50%, -50%);
+}
+.plus-button:before {
+  height: 1em;
+  width: 2px;
+}
+.plus-button:after {
+  height: 2px;
+  width: 1em;
+}
+
+@media (max-width: 480px) {
+	.book-main-section .booking-section {
+		flex-direction: column;
+	}
+}
+@media (max-width: 360px) {
+	.booking-form-section .booking-row .booking-col input, .booking-form-section .booking-row .booking-col select {
+		width: 130px;
+	}
+}
+@media (max-width: 340px) {
+	.booking-form-section .booking-row .booking-col input, .booking-form-section .booking-row .booking-col select {
+		width: 110px;
+	}
+}
+
+
+/*css loader style*/
+.lds-ring {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+.lds-ring div {
+  box-sizing: border-box;
+  display: block;
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border: 8px solid #29512A;
+  border-radius: 50%;
+  animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  border-color: #29512A transparent transparent transparent;
+}
+.lds-ring div:nth-child(1) {
+  animation-delay: -0.45s;
+}
+.lds-ring div:nth-child(2) {
+  animation-delay: -0.3s;
+}
+.lds-ring div:nth-child(3) {
+  animation-delay: -0.15s;
+}
+@keyframes lds-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+#bookingLoading {
+	position: relative;
+	display: none;
+	min-height: 262px;
+}
+#loadingSpinner {
+	position: absolute;
+	width: 100%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.ui-state-highlight, .ui-widget-content .ui-state-highlight, .ui-widget-header .ui-state-highlight {
+	background-color: #29512A;
+    color: #fff;
+}
+.ui-widget-content {
+    background: #ccc;
+}
+.ui-widget-header {
+    background: #ddd;
+}
+.ui-datepicker .ui-datepicker-title {
+	margin: 0;
+	display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.ui-datepicker select.ui-datepicker-month, .ui-datepicker select.ui-datepicker-year {
+	border: 1px solid #c3c3c3;
+    background: none;
+    border-radius: 2px;
+    font-family: 'merriWIt';
+    cursor: pointer;
+}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active {
+	font-family: 'merriW';
+}
+.ui-datepicker th {
+	font-family: 'merriWIt';
+}
+.ui-datepicker .ui-datepicker-prev, .ui-datepicker .ui-datepicker-next {
+	display: none;
+}
+:focus {
+    outline: #dda505 auto 1px;
+}
+@media (min-width: 1200px) {
+	.booking-form-section h2.form-header {
+		margin-bottom: 64px;
+	}
+	.booking-form-section .booking-row .booking-col input, .booking-form-section .booking-row .booking-col select {
+		width: 280px;
+	}
+	.book-main-section {
+		padding: 30px 20px;
+	}
+	.book-main-section .booking-section .booking-col label {
+  	margin-bottom: 18px;
+	}
+	.book-main-section .booking-section {
+    padding-bottom: 20px;
+	}
+	.booking-form-section {
+    margin-top: 35px;
+	}
+	.booking-form-section .booking-row {
+    margin-bottom: 50px;
+	}
+  .booking-row.add-remove-field .flex-box-here {
+    margin-bottom: 50px;
+  }
+	.booking-form-section .booking-row .booking-col input, .booking-form-section .booking-row .booking-col select {
+	    font-size: 16px;
+	}
+	.booking-section .booking-col input#checkIndate, .booking-section .booking-col input#checkOutdate {
+		font-size: 16px;
+	}
+	.booking-form-section h2.form-header {
+		font-size: 22px;
+	}
+	.contact-section-main h2.section-minihead {
+		font-size: 18px;
+	}
+	.booking-form-section .book-now-button {
+	    margin: 20px auto 40px;
+	}
+}
+.booking-section .booking-col input#checkIndate:before {
+	font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f017";
+    margin-right: 5px;
+    color: #fff;
+}
+/*packages style*/
+
+
+#packages{
+    background-image: url(../img/packages/bg-pattern.png);
+    height: auto;
+    background-size: 100%;
+    text-align: center;
+}
+.packagae-container {
+	padding: 20px;
+}
+#packages .packagae-container h2.section-main-header {
+	font-family: "cstmolivia";
+    font-weight: 300;
+    color: #346735;
+    font-size: 70px;
+    padding-top: 57px;
+    line-height: 0.8;
+    margin-bottom: 20px;
+}
+#packages .packagae-container h2.section-minihead {
+	font-family: "merriW";
+    font-style: italic;
+    font-weight: 200;
+    color: #737373;
+    font-size: 13px;
+    margin-top: 6px;
+}
+.package-contents {
+	padding: 20px 0;
+}
+.package-contents .package-box {
+    width: 500px;
+	padding: 30px 35px;
+}
+.package-contents .package-box:first-child {
+	border-right: 2px dashed #ccc;
+	padding-right: 5%;
+}
+.package-contents .package-box:last-child  {
+	padding-left: 5%;
+}
+.package-contents .package-box img {
+    width: 100px;
+}
+.package-contents .package-box h2.package-head {
+	font-family: "merriW";
+	font-weight: 600;
+	color: #346735;
+	font-size: 16px;
+	line-height: 1.6;
+	margin: 14px 0;
+}
+.package-contents .package-box h2.textone {
+	font-family: "cstmgothamrd";
+	font-weight: 300;
+	color: #999999;
+	font-size: 16px;
+	line-height: 2.4;
+}
+.package-contents .package-box h2.textone span.black-text {
+	font-family: "cstmgothamrd";
+	font-weight: 600;
+	color: #346735;
+	font-size: 16px;
+}
+.package-contents .package-box .features {
+	padding: 15px 0;
+	margin-bottom: 10px;
+}
+.package-contents .package-box h2.pricing-text {
+	font-family: "merriW";
+	font-weight: 300;
+	color: #f4d160;
+	font-size: 32px;
+}
+.package-contents .package-box .book-btn {
+	border-radius: 5px;
+	background-color: #346735;
+	color: #fff;
+	width: 132px;
+	height: 44px;
+	margin: 14px auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+.package-contents .package-box a {
+	text-decoration: none;
+	transition: 0.3s ease-in;
+	font-family: "cstmgothamrd";
+	font-weight: 300;
+	color: #fff;
+	width: 100%;
+    height: 100%;
+    line-height: 2.4;
+}
+.package-contents .package-box .book-btn a:hover {
+	background-color: rgba(52,103,53,0.95);
+	border-radius: 5px;
+}
+
+.chitwan-blog-section {
+    background-image: url(../img/bgpattern154.png);
+    background-size: 100%;
+    text-align: center;
+    padding: 0 20px;
+}
+.chitwan-blog-section h2.section-main-header {
+	font-family: "cstmolivia";
+	font-weight: 300;
+	color: #346735;
+	font-size: 70px;
+    padding-top: 57px;
+    line-height: 0.8;
+    margin-bottom: 0;
+}
+.chitwan-blog-section h2.section-minihead {
+	font-family: "merriW";
+	font-weight: 200;
+	color: #737373;
+	font-size: 13px;
+    margin-top: 6px;
+}
+
+.chitwan-blog-section .blog-section-main .filter{
+	display: flex;
+	justify-content: center;
+}
+
+.chitwan-blog-section .blog-section-main .filter h1{
+	/* background-color: #346735; */
+    display: flex;
+    align-items: center;
+    padding: 0px 20px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-family: "merriW";
+    color: #346735;
+    box-shadow: rgb(0 0 0 / 15%) 0px 5px 15px 0px;
+    border-radius: 5px;
+    height: 40px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.chitwan-blog-section .blog-section-main {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.chitwan-blog-section .blog-section-main img:first-child {
+	max-width: 800px;
+}
+.chitwan-blog-section .blog-section-main img {
+    max-width: 620px;
+    border-radius: 12px;
+    margin-bottom: 30px;
+}
+.chitwan-blog-section .blog-section-main h1, .chitwan-blog-section .blog-section-main h2, .chitwan-blog-section .blog-section-main h3, .chitwan-blog-section .blog-section-main h4, .chitwan-blog-section .blog-section-main h5, .chitwan-blog-section .blog-section-main h6 {
+	font-family: "merriWIt";
+    font-weight: 300;
+    color: #333333;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 25px;
+}
+.chitwan-blog-section .blog-section-main p {
+    font-family: "cstmgothamrd";
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 1.8;
+    color: #3b3b3b;
+    margin-bottom: 12px;
+	text-align: justify;
+}
+
+.chitwan-blog-section .blog-section-main ul{
+ font-family: "cstmgothamrd";
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 1.8;
+    color: #3b3b3b;
+    margin-bottom: 12px;
+	text-align: justify;
+}
+
+
+.chitwan-blog-section .blog-section-main .packinner .details-btn {
+	border-radius: 5px;
+	background-color: #346735;
+	color: #fff;
+	width: 132px;
+	height: 44px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+.chitwan-blog-section .blog-section-main .packinner .details-btn a {
+	text-decoration: none;
+	transition: 0.3s ease-in;
+	font-family: "cstmabel";
+	font-weight: 300;
+	color: #fff;
+	width: 100%;
+    height: 100%;
+    /* line-height: 2.4; */
+}
+.chitwan-blog-section .blog-section-main .packinner .details-btn:hover {
+	background-color: rgba(52,103,53,0.95);
+	border-radius: 5px;
+}
+
+/*contact page css*/
+
+.contact-formsection {
+    padding: 20px 0;
+}
+.contact-formsection .contact-formrow {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.contact-formsection .contact-formrow .contact-form-col {
+	display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+}
+.contact-formsection .contact-formrow .contact-form-col label {
+	font-family: "merriW";
+    font-weight: 300;
+    color: #dda505;
+    margin-bottom: 12px;
+}
+.contact-formsection .contact-formrow .contact-form-col input {
+	border: none;
+	border-bottom: 2px solid #346735;
+	background: none;
+	font-family: "merriWIt";
+    font-weight: 300;
+    font-size: 14px;
+    text-align: center;
+    color: #346735;
+    margin-bottom: 10px;
+    padding: 6px 8px;
+    min-width: 190px;
+}
+.contact-formsection .contact-formrow .contact-form-col #message {
+	border: none;
+	border-bottom: 2px solid #346735;
+	background: none;
+	font-family: "merriWIt";
+    font-weight: 300;
+    font-size: 14px;
+    text-align: center;
+    color: #346735;
+    padding: 6px 8px;
+    min-width: 190px;
+}
+.contact-formsection .contact-formrow .contact-form-col input::-webkit-input-placeholder { /* Edge */
+  color: #666;
+}
+
+.contact-formsection .contact-formrow .contact-form-col input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #666;
+}
+
+.contact-formsection .contact-formrow .contact-form-col input::placeholder {
+  color: #666;
+}
+.contact-formsection .contact-formrow .contact-form-col #message::-webkit-input-placeholder {
+	color: #666;
+}
+.contact-formsection .contact-formrow .contact-form-col #message:-ms-input-placeholder {
+	color: #666;
+}
+.contact-formsection .contact-formrow .contact-form-col #message::placeholder  {
+	color: #666;
+}
+
+
+.contact-btn-container button {
+    border: none;
+    border-radius: 5px;
+    background-color: #346735;
+    color: #fff;
+    width: 132px;
+    height: 44px;
+    margin: 14px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgb(0 0 0 / 15%) 0px 5px 15px 0px;
+    text-decoration: none;
+    transition: 0.3s ease-in;
+    font-family: "cstmabel";
+    font-weight: 300;
+    color: #fff;
+}
+.contact-btn-container button:hover {
+    opacity: 0.9;
+}
+.flex-box-contact {
+	padding-bottom: 14px;
+}
+.label-head-main {
+	font-family: "merriW";
+	font-weight: 600;
+	font-size: 16px;
+	color: #346735;
+	margin-bottom: 14px;
+}
+.contact-icon-row p {
+	font-family: "cstmgothamrd";
+	font-weight: 300;
+	font-size: 16px;
+	margin-bottom: 14px;
+  line-height: 1.6;
+	color: #666;
+}
+p.locationIcon:before {
+	font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f3c5";
+  margin-right: 8px;
+  color: #346735;
+}
+p.phoneIcon:before {
+	font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f879";
+  margin-right: 8px;
+  color: #346735;
+}
+p.mailIcon:before {
+	font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f0e0";
+  margin-right: 8px;
+  color: #346735;
+}
+/*ends*/
+
+/*packages changes*/
+.absolute-package-section {
+	display: flex;
+	position: relative;
+}
+.package-image-blocks {
+	flex: 1;
+	position: relative;
+}
+.package-image {
+	width: 100%;
+}
+.absolute-package-text {
+	position: absolute;
+	width: 100%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	z-index: 2;
+}
+h2.package-main-text {
+	color: #fff;
+	font-family: "MerriW";
+	font-size: 38px;
+    background: rgba(0,0,0,0.3);
+    padding: 4px 8px;
+    width: fit-content;
+    margin: auto;
+}
+.overlay-section {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.3);
+	z-index: 1;
+	top: 0;
+	left: 0;
+}
+.flex-box-here {
+	display: flex;
+}
+.packagedetails-section {
+	flex: 1;
+	text-align: left;
+	padding: 25px 20px;
+}
+.packagedetails-section p {
+	font-family: "cstmgothamrd";
+	font-weight: 300;
+	font-size: 14px;
+	color: #333;
+	line-height: 1.6;
+	margin-bottom: 10px;
+}
+h2.package-main-head {
+	font-family: "merriWIt";
+	font-size: 16px;
+	margin-bottom: 15px;
+	color: #346735;
+}
+.packagedetails-section ul {
+  margin-left: 30px;
+  font-family: "merriW";
+  font-size: 14px;
+}
+.packagedetails-section ul li {
+    color: #008000;
+}
+.packagedetails-section strong {
+	font-weight: 600;
+}
+/*ends*/
+
+/*package changes final*/
+.package-row {
+	margin-top: 35px;
+}
+
+.package-flex-row {
+	display: flex;
+	background-color: #1E3D00;
+	padding: 20px;
+	margin-bottom: 25px;
+	border-radius: 4px;
+}
+.package-flex-col {
+	flex: 1;
+  text-align: left;
+}
+.package-flex-row:nth-child(odd) .package-flex-col:nth-child(1) {
+	order: 2;
+	flex: 1 55%;
+}
+.package-flex-row:nth-child(odd) .package-flex-col:nth-child(2) {
+	text-align: right;
+	flex: 1 45%;
+	padding: 30px 30px 30px 15%;
+}
+.package-flex-row:nth-child(odd) .package-flex-col:nth-child(2) hr.theme-dashed-box {
+	margin: 1rem 0px 1rem auto;
+}
+.package-flex-row:nth-child(odd) .package-flex-col:nth-child(2) .details-btn {
+	margin: 0 0 0 auto;
+}
+.package-flex-row:nth-child(even) .package-flex-col:nth-child(1) {
+	flex: 1 55%;
+}
+.package-flex-row:nth-child(even) .package-flex-col:nth-child(2) {
+	flex: 1 45%;
+	padding: 30px 15% 30px 30px;
+}
+
+.package-flex-col .scale-box-package {
+	overflow: hidden;
+	transition: 0.3s ease-in-out;
+	height: 440px;
+}
+.package-flex-col .scale-box-package img {
+	width: 100%;
+	display: block;
+  height: 100%;
+  object-fit: cover;
+	cursor: pointer;
+	transition: 0.3s ease-in-out;
+}
+.package-flex-col .scale-box-package img:hover {
+	transform: scale(1.2);
+}
+h2.package-head-main {
+	color: #fff;
+	font-family: "merriW";
+	font-weight: 300;
+	font-size: 16px;
+	letter-spacing: 0.4px;
+}
+hr.theme-dashed-box {
+	border: none;
+	width: 75px;
+	height: 6px;
+	background-color: #996600;
+    margin: 1rem auto 1rem 0px;
+}
+.package-flex-col p {
+	color: #fff;
+	font-family: "cstmgothamrd";
+	font-weight: 300;
+	font-size: 14px;
+	letter-spacing: 0.4px;
+	line-height: 1.6;
+	margin-bottom: 1rem;
+}
+.package-flex-col ul {
+    color: #fff;
+    font-family: "cstmgothamrd";
+    font-weight: 300;
+    font-size: 14px;
+    letter-spacing: 0.4px;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+.package-flex-row:nth-child(odd) .package-flex-col ul {
+    list-style-position: inside;
+}
+.details-btn {
+	border: 2px solid #fff;
+  border-radius: 4px;
+  width: 144px;
+  height: 44px;
+  margin-right: auto;
+ 	text-align: center;
+}
+.details-btn a {
+	text-decoration: none;
+  color: #fff;
+  font-family: "cstmabel";
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.4px;
+  display: block;
+  width: 100%;
+  height: 100%;
+  line-height: 2.9;
+  text-transform: uppercase;
+}
+.rooms-slider .carousel {
+	background: #222;
+}
+
+.rooms-slider .carousel-cell {
+  width: 100%;
+  height: 100%;
+  margin-right: 10px;
+  /* center images in cells with flexbox */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rooms-slider .carousel-cell-image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.event-slider .carousel {
+	background: #222;
+}
+.event-slider .carousel-cell {
+  width: 100%;
+  height: 100%;
+  margin-right: 10px;
+  /* center images in cells with flexbox */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #222;
+}
+
+.event-slider .carousel-cell-image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+@media (min-width: 720px) and (max-width:900px) {
+	.herotext-section {
+		text-align: center;
+		padding: 30% 0;
+	}
+	#myVideo {
+		position: relative;
+    right: 0;
+    bottom: 0px;
+    width: 100rem;
+    height: 100%;
+   }
+
+.gallery-main-section .carousel-cell {
+    width: 90%;
+    height: 100%;
+    margin-right: 10px;
+    overflow: hidden;
+}
+}
+
+@media (min-width: 900px) and (max-width: 1199px) {
+	.herotext-section {
+		text-align: center;
+		padding: 30% 0;
+	}
+	#myVideo {
+		position: relative;
+    right: 0;
+    bottom: 0px;
+    width: 100rem;
+    height: 100%;
+   }
+.chitwan-carousel-section .gallery .flickity-page-dots {
+    bottom: 22px;
+}
+.chitwan-experience-section .experience-content-section {
+    top: 56%;
+}
+.gallery-main-section .carousel-cell {
+    width: 90%;
+    height: 100%;
+    margin-right: 10px;
+    overflow: hidden;
+}
+}
+/*ends*/
+
+@media (max-width: 900px) {
+	.button_container {
+		display: block;
+	}
+	.logo-section ul li:nth-child(2), .logo-section ul li:nth-child(3), .logo-section ul li:nth-child(4), .logo-section ul li:nth-child(5), .logo-section ul li:nth-child(6), .logo-section ul li:nth-child(7) {
+		display: none;
+	}
+	#headerSection .header-contents ul li:nth-child(2), #headerSection .header-contents ul li:nth-child(3), #headerSection .header-contents ul li:nth-child(4), #headerSection .header-contents ul li:nth-child(5), #headerSection .header-contents ul li:nth-child(6), #headerSection .header-contents ul li:nth-child(7) {
+		display: none;
+	}
+	.reachus-section .map-container img {
+        height: auto;
+	}
+	#headerSection .header-contents ul {
+	    justify-content: flex-start;
+	}
+	.reachus-section .map-container {
+	    height: 365px;
+    	overflow: hidden;
+	}
+	.logo-section {
+		/* padding-top: 26px; */
+	}
+	.logo-section ul {
+	    /* justify-content: end; */
+        padding-left: 15px;
+	}
+	.herotext {
+	    margin-bottom: 14px;
+	}
+	.separator-mark {
+	    margin: 20px auto 24px;
+	}
+	.herotext {
+		margin-bottom: 14px;
+	}
+	.herotext-section {
+		padding: 150px 0;
+	}
+	.logomain-home {
+	    max-width: 150px;
+    }
+	.overlay ul li a {
+	    font-size: 22px;
+	}
+	.package-contents {
+	    flex-direction: column;
+	}
+	.package-contents .package-box {
+		width: 100%;
+    	padding: 30px 0px;
+	}
+	.package-contents .package-box:first-child {
+		border-right: none;
+    	padding-right: 0;
+
+	}
+	.package-contents .package-box:last-child {
+		padding-left: 0;
+	}
+	.package-contents .package-box h2.pricing-text {
+		margin-bottom: 40px;
+	}
+	.tlogo-section {
+		padding: 40px 75px;
+	}
+	.room-type-section .room-type-box {
+		flex-direction: column;
+	}
+	.room-type-section .room-type-box h2.type-head {
+		font-size: 17px;
+	}
+	.room-type-section .room-type-box .room-text {
+		padding: 35px 20px;
+	}
+	.room-type-section .room-type-box:first-child {
+		padding-bottom: 0;
+		border-bottom: none;
+	}
+	h2.package-main-text {
+	    font-size: 18px;
+	}
+	.flex-box-here {
+		display: flex;
+    	flex-direction: column;
+	}
+	.packagedetails-section {
+		text-align: center;
+	}
+	.packagedetails-section ul {
+		list-style: none;
+	}
+	h2.package-main-head {
+		margin-top: 45px;
+	}
+	.packagedetails-section {
+		padding-bottom: 0;
+	}
+	.package-blocks-inner .packagedetails-section:nth-child(even) {
+		padding-top: 0;
+	}
+	.packagedetails-section ul li p {
+		margin-bottom: 5px;
+	}
+	.packagedetails-section ul li:last-child p {
+		margin-bottom: 0;
+	}
+	.package-contents .package-blocks {
+		padding-bottom: 45px;
+	}
+	.package-contents .package-blocks:last-child {
+		padding-bottom: 0;
+	}
+	.gallery-main-section {
+		padding-bottom: 60px;
+	}
+  .booking-row.add-remove-field .flex-box-here {
+    flex-direction: row;
+    margin-bottom: 18px;
+  }
+  .closeBtn {
+    left: 60px;
+  }
+  .book-main-section .booking-section .booking-col:nth-child(3) {
+    margin-bottom: 0;
+  }
+  
+  .blog-section-main .packinner{
+    margin-left: 0px;
+}
+}
+@media (max-width: 480px) {
+	.chitwan-blog-section .blog-section-main img {
+	    width: 70%;
+	}
+	.chitwan-blog-section .blog-section-main img:first-child {
+		width: 100%;
+	}
+	.reachus-section .map-container img {
+	    height: auto;
+	}
+	.reachus-section .map-container {
+	    height: 842px;
+    	overflow: hidden;
+	}
+	h1.testimonial-head {
+		max-width: 320px;
+	    margin: 35px auto;
+	}
+	.chitwan-experience-section .experience-content-section .booknow-btn {
+	    width: 144px;
+	}
+
+	.hastag-booknow-btn{
+	 width: 92px;
+    margin: auto;
+    height: 37px;
+    top: 87%;
+	}
+}
+@media (min-width: 320px) and (max-width: 349px) {
+	.reachus-section .map-container {
+	    height: 890px;
+	}
+	.reachus-section .map-container img {
+	    margin-top: 200px;
+	}
+}
+
+@media (min-width: 350px) and (max-width: 369px) {
+	.reachus-section .map-container {
+	    height: 840px;
+	}
+	.reachus-section .map-container img {
+	    margin-top: 67px;
+	}
+}
+@media (min-width: 370px) and (max-width: 380px) {
+	.reachus-section .map-container {
+	    height: 810px;
+	}
+	.reachus-section .map-container img {
+	    margin-top: 38px;
+	}
+}
+@media (min-width: 901px) {
+	.button_container {
+		display: none;
+	}
+	
+  .book-main-section .booking-search-button {
+    margin: 35px auto 0;
+  }
+}
+
+@media (max-width:901px){
+	.logo-main{
+		display: none;
+	}
+}
+
+@media (min-width: 1200px) {
+	
+	#packages {
+		background-image: url(../img/bgpattern154.png);
+		background-size: contain;
+	}
+	.chitwan-blog-section .blog-section-main {
+		max-width: 1200px;
+		margin: auto;
+		padding: 30px 70px;
+	}
+	.chitwan-blog-section {
+		background-size: contain;
+	}
+	.contact-section-main {
+	    background-size: contain;
+	    background-image: url(../img/bgpattern154.png);
+	}
+	.button_container {
+	    top: 7%;
+	}
+	#packages .packagae-container h2.section-main-header {
+	    font-size: 100px;
+	}
+	#packages .packagae-container h2.section-minihead {
+    	font-size: 18px;
+	}
+	.contact-formsection .contact-formrow {
+		flex-direction: row;
+	    max-width: 760px;
+    	margin: auto;
+    	flex-wrap: wrap;
+	    padding: 50px 0;
+	}
+	.contact-formsection .contact-formrow .contact-form-col {
+	    flex: 50%;
+	}
+	.contact-formsection .contact-formrow .contact-form-col:nth-child(odd) {
+		padding-right: 10px;
+	}
+	.contact-formsection .contact-formrow .contact-form-col:nth-child(even) {
+		padding-left: 10px;
+	}
+	.contact-formsection .contact-formrow .contact-form-col:nth-child(1), .contact-formsection .contact-formrow .contact-form-col:nth-child(2) {
+	    padding-bottom: 50px;
+	}
+	.contact-formsection .contact-formrow .contact-form-col #message {
+		margin-bottom: 10px;
+	}
+	.bui-badge {
+		font-size: 14px;
+		line-height: 1.5;
+	}
+	svg.bk-icon {
+		height: 18px;
+    	width: 18px;
+	}
+	.contact-formsection .contact-formrow .contact-form-col input, .contact-formsection .contact-formrow .contact-form-col #message {
+	    min-width: 240px;
+		margin: auto;
+		height: 36px;
+	}
+	.flex-section {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	    padding: 30px 0;
+	}
+	.flex-box-contact {
+	    width: 430px;
+	    padding-top: 20px;
+	}
+	.flex-box-contact:nth-child(1) {
+		border-right: 1px dashed #ccc;
+	}
+	.flex-box-contact:nth-child(2) {
+		border-left: 1px dashed #ccc;
+	}
+	.label-head-main {
+	    font-size: 18px;
+	    margin-bottom: 20px;
+	}
+	.contact-icon-row p {
+	    margin-bottom: 24px;
+	}
+	/*footer css*/
+	#footermain-section .footer-bgsection {
+		padding: 40px 10% 6px;
+      
+       
+	}
+	#footermain-section .footer-bgsection .footer-flex-box {
+	    flex-direction: row;
+	}
+	#footermain-section .footer-bgsection .footer-flex-box .footer-right {
+		text-align: right;
+	}
+	#footermain-section .footer-bgsection .footer-flex-box .footer-right .footer-links-row {
+		justify-content: flex-end;
+	}
+	#footermain-section .footer-bgsection .footer-logo {
+		text-align: left;
+	}
+	#footermain-section .footer-bgsection .footer-flex-box .footer-left {
+		text-align: left;
+	}
+	.footer-dashed-line {
+	    max-width: 290px;
+    	margin-right: 0;
+	}
+	#footermain-section .footer-shape-container {
+	    height: 256px;
+	}
+	.reachus-section .map-container {
+	    height: 440px;
+	}
+	/*ends*/
+	.reachus-absolute-container {
+	    width: 50%;
+	}
+	/* .tlogo-section .tlogos {
+	    width: 102px;
+    	height: 117px;
+	} */
+	.tlogo-slider-section .carousel-cell {
+		height: 130px;
+	}
+	.tlogo-carousel .flickity-viewport {
+		height: 130px!important;
+	}
+	.chitwan-experience-section .experience-content-section .booknow-btn {
+        width: 140px;
+	}
+	.contact-formsection .contact-formrow .contact-form-col #message {
+		height: 100%;
+	}
+	.logomain-home {
+	    max-width: 200px;
+	}
+	.room-type-section {
+	    align-items: baseline;
+	}
+	.room-type-section {
+	    padding: 35px 0;
+	}
+	.icon-section {
+	    padding: 0 15px 15px;
+	}
+	.chitwan-hastag-section .hastag-img-gallery .gallery-row {
+	    padding: 0 4%;
+	}
+	.tlogo-section {
+	    padding-top: 60px;
+	}
+	.room-type-section .room-type-box:nth-child(even) .room-slides {
+		order: 1;
+	}
+	.room-type-section .room-type-box:nth-child(even) .room-text {
+		order: 2;
+	}
+	.room-type-section .room-type-box:nth-child(odd) .room-text {
+		padding: 45px 30px 35px 10%;
+		text-align: right;
+	}
+	.room-type-section .room-type-box:nth-child(odd) .room-text .icon-section {
+		padding-right: 0;
+	}
+	.room-type-section .room-type-box:nth-child(even) .room-text .icon-section {
+		padding-left: 0;
+	}
+	.room-type-section .room-type-box:nth-child(even) .room-text {
+		padding: 45px 10% 35px 30px;
+		text-align: left;
+	}
+	.room-type-section .room-type-box h2.type-head {
+	    margin-top: 15px;
+	    margin-bottom: 15px;
+	    font-size: 19px;
+	}
+	.ourroom-main-section h2.main-header {
+		font-size: 26px;
+		margin-top: 65px;
+	}
+	.ourroom-main-section h2.main-header:nth-child(1) {
+		margin-top: 35px;
+	}
+	.packagedetails-section {
+	    padding: 55px 20px;
+	}
+	.book-now-btn {
+		bottom: -168px;
+	}
+	.chitwan-explore-section .explore-head-section {
+		padding-bottom: 35px;
+	}
+	.ourroom-main-section h2.main-header {
+	    font-size: 23px;
+	}
+	.event-slider .flickity-viewport {
+	    height: 854px!important;
+	}
+    .rooms-slider .flickity-viewport {
+        height: 100%!important;
+        min-height: 480px;
+    }
+}
+.flickity-enabled.is-fullscreen {
+	z-index: 99999;
+	margin: 0;
+}
+@media (min-width: 1360px) {
+
+}
+@media (min-width: 1440px) {
+	.chitwan-hastag-section .hastag-img-gallery .gallery-row .gallery-col {
+	    height: 380px;
+	    flex: 1;
+	}
+	.chitwan-roombg-section {
+		background-image: url(../img/roombg.png);
+	}
+	.packagedetails-section {
+	    padding: 55px 80px;
+	}
+	.room-type-section .room-type-box:nth-child(odd) .room-text {
+		padding: 45px 40px 35px 18%;
+	}
+	.room-type-section .room-type-box:nth-child(even) .room-text {
+	    padding: 45px 18% 35px 40px;
+	}
+    .chitwan-carousel-section .gallery-cell .slide-img-box img {
+        height: 320px;
+    }
+    .chitwan-carousel-section .gallery-cell .slide-img-box {
+        height: 320px;
+    }
+    .chitwan-carousel-section .gallery .flickity-viewport {
+        height: 480px!important;
+    }
+    .chitwan-carousel-section {
+        height: 780px;
+    }
+}
+@media (min-width: 1600px) {
+	.chitwan-hastag-section .hastag-img-gallery .gallery-row .gallery-col {
+	    height: 500px;
+	    max-height: 500px;
+	}
+	.our-roomslider-section .gallery-cell .slide-img-box img {
+		height: 320px;
+	}
+	.our-roomslider-section .gallery .flickity-viewport {
+	    height: 400px!important;
+	}
+	.room-type-section .room-type-box:nth-child(odd) .room-text {
+	    padding: 55px 50px 35px 21%;
+	}
+	.room-type-section .room-type-box:nth-child(even) .room-text {
+	    padding: 55px 21% 35px 50px;
+	}
+	.logo-section {
+	    padding-top: 30px;
+	    padding-bottom: 30px;
+	}
+	.package-flex-col .scale-box-package {
+	    height: 510px;
+	}
+	.package-flex-row:nth-child(odd) .package-flex-col:nth-child(2) {
+	    padding: 30px 32px 30px 20%;
+	}
+	.package-flex-row:nth-child(even) .package-flex-col:nth-child(2) {
+		padding: 30px 20% 30px 32px;
+	}
+	.rooms-slider .carousel-cell-image {
+		height: 540px;
+	}
+	.rooms-slider .flickity-viewport {
+		height: 540px!important;
+	}
+/*	.gallery-main-section .carousel-cell {
+	    width: 36%;
+	}*/
+	.gallery-main-section .carousel-cell, .gallery-main-section .carousel-cell-image {
+		height: 390px;
+	}
+	#roomPageGallerySlider .flickity-viewport, #packagePageGallerySlider .flickity-viewport, #carousleGallery .flickity-viewport {
+		height: 391px!important;
+	}
+ }
+ @media (min-width: 1920px) {
+	.chitwan-hastag-section .hastag-img-gallery .gallery-row .gallery-col {
+	    max-height: 500px;
+	}
+	.chitwan-experience-section {
+		min-height: 1030px;
+		/* background-image: url(../img/bg1920.png); */
+	}
+	.chitwan-experience-section .experience-content-section .booknow-btn {
+		width: 135px;
+	}
+	.chitwan-roombg-section {
+		min-height: 1080px;
+	}
+	.chitwan-roombg-section .roombg-content-section h2.theme-text {
+		font-size: 130px;
+	}
+	.chitwan-roombg-section .roombg-content-section .booknow-btn {
+	    width: 125px;
+        border: 2px solid #fff;
+	}
+	.chitwan-roombg-section .roombg-content-section .booknow-btn a .book-btn {
+	    font-size: 17px;
+	}
+	.chitwan-experience-section .experience-content-section h1.theme-text {
+	    font-size: 130px;
+	}
+
+	.chitwan-experience-section .experience-content-section .booknow-btn {
+		width: 125px;
+        border: 2px solid #fff;
+	}
+	.our-roomslider-section .gallery-cell .slide-img-box img {
+		height: 360px;
+	}
+	.our-roomslider-section .gallery .flickity-viewport {
+	    height: 440px!important;
+	}
+	.room-type-section .room-type-box:nth-child(odd) .room-text {
+		padding: 65px 60px 35px 25%;
+	}
+	.room-type-section .room-type-box:nth-child(even) .room-text {
+	    padding: 65px 25% 35px 60px;
+	}
+	.room-type-section .room-type-box .room-slides img {
+		height: 620px;
+    	object-fit: cover;
+	}
+	.chitwan-explore-section .gallery-cell .slide-imgbox img {
+	    height: 310px;
+	}
+	.chitwan-explore-section .flickity-viewport {
+		height: 500px!important;
+    	overflow: hidden;
+	}
+	.chitwan-explore-section .gallery-cell .slide-textbox p.text-discript {
+		height: 125px;
+	}
+	.book-now-btn {
+	  
+	}
+	.flickity-enabled.is-fullscreen .flickity-viewport {
+	    height: 100%!important;
+	}
+	.chitwan-carousel-section #rupakotCarousel.is-fullscreen .gallery-cell .slide-text-content .slide-text-small {
+		height: 60px;
+	}
+	.chitwan-carousel-section #rupakotCarousel.is-fullscreen .gallery-cell .slide-text-content {
+		bottom: 130px;
+	}
+	.chitwan-carousel-section #rupakotCarousel.is-fullscreen .gallery-cell .slide-img-box img {
+		height: 82%;
+	}
+
+	.flickity-viewport {
+		height: 420px!important;
+	}
+	.package-flex-col .scale-box-package {
+		height: 590px;
+	}
+	h2.package-head-main {
+		font-size: 20px;
+	}
+	.package-flex-col p {
+		font-size: 16px;
+	}
+	.package-flex-row:nth-child(odd) .package-flex-col:nth-child(2) {
+	    padding: 30px 40px 30px 22%;
+	}
+	.package-flex-row:nth-child(even) .package-flex-col:nth-child(2) {
+		padding: 30px 22% 40px 30px;
+	}
+	.event-slider .flickity-viewport {
+	    height: 1080px!important;
+	}
+    .rooms-slider .flickity-viewport {
+        height: 100%!important;
+        min-height: 615px;
+    }
+    .chitwan-carousel-section .gallery-cell .slide-img-box img, .chitwan-carousel-section .gallery-cell .slide-img-box {
+        height: 380px;
+    }
+    .chitwan-carousel-section .gallery .flickity-viewport {
+        height: 580px!important;
+    }
+    .chitwan-carousel-section {
+        height: 870px;
+    }
+    .adoutus-slider-section .gallery-cell .slide-img-box, .adoutus-slider-section .gallery-cell .slide-img-box img {
+        height: 400px;
+    }
+    .adoutus-slider-section .gallery-cell .slide-img-box img {
+        object-fit: cover;
+    }
+    .adoutus-slider-section .gallery .flickity-viewport {
+        height: 540px!important;
+    }
+    .gallery-main-section .carousel-cell, .gallery-main-section .carousel-cell-image {
+        height: 440px;
+    }
+    #roomPageGallerySlider .flickity-viewport, #packagePageGallerySlider .flickity-viewport, #carousleGallery .flickity-viewport {
+        height: 440px!important;
+    }
+     .chitwan-first-section {
+         min-height: 1080px;
+     }
+}
+ #reachUs {
+
+    background-size: contain;
+}
+@media (max-width: 600px) {
+	.room-type-section{
+		flex-direction: column;
+	}
+	#reachUs {
+	    background-image: url(../img/bgpattern.png);
+	}
+	.booking-form-section .booking-row {
+		flex-direction: column;
+		margin-bottom: 0;
+	}
+	.booking-section .booking-col input#checkIndate, .booking-section .booking-col input#checkOutdate {
+		width: 235px;
+	}
+	.booking-form-section .booking-row .booking-col input, .booking-form-section .booking-row .booking-col select, .booking-col .custom-roomselect {
+		width: 235px;
+		margin: auto;
+	}
+	.booking-form-section .booking-row .booking-col:first-child, .booking-form-section .booking-row .booking-col:last-child {
+		margin: 0;
+	}
+	.booking-form-section .booking-row .booking-col {
+		padding-bottom: 30px;
+	}
+	.book-main-section .booking-section .booking-col {
+    margin-bottom: 30px;
+	}
+	.booking-form-section h2.form-header {
+		font-size: 20px;
+		margin-bottom: 30px;
+    	 margin-top: 10px;
+	}
+	.contact-formsection {
+		padding: 40px 0;
+	}
+	.contact-formsection .contact-formrow .contact-form-col label {
+    margin-bottom: 16px;
+	}
+	.contact-formsection .contact-formrow .contact-form-col {
+    padding-bottom: 25px;
+	}
+	.contact-formsection .contact-formrow {
+		padding-bottom: 18px;
+	}
+	.package-flex-row {
+    padding: 12px;
+    border-radius: 0;
+    flex-direction: column;
+	}
+	.package-flex-col .scale-box-package {
+		height: 100%;
+	}
+	.package-flex-col .scale-box-package img {
+    height: 249px;
+	}
+	.package-flex-row:nth-child(odd) .package-flex-col:nth-child(1) {
+		order: 1;
+	}
+	.package-flex-row:nth-child(odd) .package-flex-col:nth-child(2) {
+		order: 2;
+		text-align: left;
+	    padding: 30px;
+	}
+	.package-flex-row:nth-child(even) .package-flex-col:nth-child(2) {
+		padding: 30px;
+	}
+	.packagae-container {
+		padding: 20px 0;
+	}
+	
+	.package-flex-row:nth-child(odd) .package-flex-col ul {
+		list-style-position: outside;
+	}
+
+	.package-flex-row:nth-child(odd) .package-flex-col:nth-child(2) .details-btn {
+		margin: 0px !important;
+	}
+	.package-flex-row:nth-child(odd) .package-flex-col:nth-child(2) hr.theme-dashed-box {
+		margin: 1rem 0px !important;
+	}
+	h2.package-head-main {
+		line-height: 1.6;
+	}
+	
+  .chitwan-roombg-section .roombg-content-section h2.theme-text {
+    font-size: 54px;
+    margin-bottom: 60px;
+  }
+  .rooms-slider .flickity-viewport {
+    height: 280px;
+  }
+  .closeBtn {
+    left: 50%;
+    top: 0;
+    transform: translate(-50%,0);
+  }
+  .booking-row.add-remove-field .flex-box-here {
+    padding-top: 40px;
+  }
+  .booking-row.add-remove-field .flex-box-here:last-child {
+    padding-top: 0;
+  }
+  .custom-roomselect select#roomOccupancy {
+    width: inherit;
+  }
+  .booking-row.add-remove-field:nth-child(5) .flex-box-here {
+    padding-top: 0;
+  }
+}
+@media (max-width: 375px) {
+  .rooms-slider .flickity-viewport {
+    height: 240px;
+  }
+}
+#rupakotCarousel.is-fullscreen .carousel-cell {
+	width: 100%;
+}
+#roomPageGallerySlider.is-fullscreen .flickity-viewport, #packagePageGallerySlider.is-fullscreen .flickity-viewport, #carousleGallery.is-fullscreen .flickity-viewport, #rupakotCarousel.is-fullscreen .carousel-cell-image, #rupakotCarousel.is-fullscreen .flickity-viewport {
+    height: 100%!important;
+}
+html.is-flickity-fullscreen {
+	overflow: visible;
+}
+@media (max-width: 720px) {
+    .chitwan-first-section {
+        background-image: url("../img/bgimg18346.png")!important;
+    }
+    .chitwan-roombg-section {
+        background-size: cover;
+        background-position: right;
+    }
+	#myVideo {
+		position: relative;
+		right: 0;
+		bottom: 0;
+		width: 76rem;
+		height: 100%;
+		transform: translate(-35%);
+	  }
+}
+@media (min-width: 1000px) {
+    .chitwan-roombg-section {
+        height: 720px;
+    }
+}
+#toolTip {
+    position: absolute;
+    bottom: 70px;
+    width: 100px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    color: #333;
+    font-weight: 600;
+    border-radius: 4px;
+}
+.booking-form-section .booking-row:nth-child(5) .closeBtn {
+  display: none;
+}
+#searchBtn.disabled {
+  pointer-events: none;
+  cursor: default;
+  transition: 0.3s ease-in-out;
+}
+.background-blur {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 90px;
+    background: linear-gradient(0deg, #FFFFFF 2.4%, rgba(255, 255, 255, 0.78) 33%, rgba(255, 255, 255, 0.54) 55%, rgba(255, 255, 255, 0) 98%);
+}
+
+@media (max-width: 900px) {
+    .room-type-section .room-type-box .room-text .book-now-btn .book-btn {
+        margin: auto;
+    }
+    .room-type-section .room-type-box:nth-child(even) .room-text .book-now-btn .book-btn {
+        margin:auto;
+    }
+    .chitwan-carousel-section {
+        height: 775px;
+    }
+}
+@media (max-width: 1199px) {
+    #footermain-section .footer-bgsection .footer-flex-box .footer-left .footer-social-icons {
+        justify-content: center;
+        padding-bottom: 20px;
+    }
+    .footer-links-row {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+}
+
