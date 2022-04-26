@@ -242,7 +242,7 @@ body {
     width: 60px;
     border-radius: 29px;
     box-shadow: rgb(0 0 0 / 15%) 0px 4px 12px 0px;
-    background: #346735;
+    background: #007A3E;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -258,7 +258,7 @@ body {
     width: 100px;
     padding: 5px 10px;
     background: #fff;
-    color: #346735;
+    color: #007A3E;
     position: absolute;
     top: -102%;
     left: -5%;
@@ -345,35 +345,35 @@ body {
   width: 80%;
   margin-right: 10px;
 }
-.chitwan-carousel-section #rupakotCarousel.is-fullscreen .gallery-cell {
+.chitwan-carousel-section #chitwanCarousel.is-fullscreen .gallery-cell {
   height: 100%;
   width: 100%;
 }
-.chitwan-carousel-section #rupakotCarousel.is-fullscreen .gallery-cell .slide-img-box {
+.chitwan-carousel-section #chitwanCarousel.is-fullscreen .gallery-cell .slide-img-box {
 	height: 100%;
 }
-.chitwan-carousel-section #rupakotCarousel.is-fullscreen .gallery-cell .slide-img-box img {
+.chitwan-carousel-section #chitwanCarousel.is-fullscreen .gallery-cell .slide-img-box img {
 	max-width: 100%;
     height: 76%;
     object-fit: contain;
     border-radius: 0;
     margin-top: 25px;
 }
-.chitwan-carousel-section #rupakotCarousel.is-fullscreen .gallery-cell .slide-img-box .slider-overlay {
+.chitwan-carousel-section #chitwanCarousel.is-fullscreen .gallery-cell .slide-img-box .slider-overlay {
 	display: none;
 }
-.chitwan-carousel-section #rupakotCarousel.is-fullscreen .gallery-cell .slide-text-content {
+.chitwan-carousel-section #chitwanCarousel.is-fullscreen .gallery-cell .slide-text-content {
 	position: relative;
     bottom: 98px;
     z-index: 999999;
     background-color: #3e3e3e;
     padding: 12px 100px;
 }
-.chitwan-carousel-section #rupakotCarousel.is-fullscreen .gallery-cell .slide-text-content h1.slide-float-text {
+.chitwan-carousel-section #chitwanCarousel.is-fullscreen .gallery-cell .slide-text-content h1.slide-float-text {
     color: #fff;
     margin-top: 0;
 }
-.chitwan-carousel-section #rupakotCarousel.is-fullscreen .gallery-cell .slide-text-content .slide-text-small {
+.chitwan-carousel-section #chitwanCarousel.is-fullscreen .gallery-cell .slide-text-content .slide-text-small {
 	color: #fff;
 	padding: 10px 0px 0;
     height: 30px;
@@ -655,7 +655,7 @@ body {
 	font-family: "cstmgothamrd";
 	font-weight: 500;
 	font-size: 35px;
-	color: #346735;
+	color: #007A3E;
 	line-height: 0.3;
     margin-bottom: 10px;
 }
@@ -783,7 +783,7 @@ h1.testimonial-head {
     font-size: 54px;
     text-align: center;
     margin-bottom: 40px;
-    color: #346735;
+    color: #007A3E;
 }
 /*tlogo slider*/
 .tlogo-slider-section .carousel-cell {
@@ -897,7 +897,7 @@ h1.testimonial-head {
     font-size: 14px;
 }
 #footermain-section {
-    /* top: 100%; */
+    top: 100%;
     position: absolute;
     
     width: 100%;
@@ -1343,7 +1343,7 @@ h6.powered-by a:hover {
 }
 
 /*room pages css*/
-.rupakotroom-first-section {
+.chitwanroom-first-section {
   background-image: url(../img/bgimg6728.jpg);
   background-size: cover;
   min-height: -webkit-fill-available;
@@ -1381,7 +1381,6 @@ h6.powered-by a:hover {
   margin: 0 auto 4px;
 }
 .our-rooms-section {
-	background-image: url(../img/bgpattern.png);
   background-size: 100%;
 	text-align: center;
 	padding: 0;
@@ -1390,20 +1389,20 @@ h6.powered-by a:hover {
 .our-rooms-section .section-main-header {
 	font-family: "cstmolivia";
 	font-weight: 300;
-	color: #346735;
+	color: #007A3E;
 	font-size: 70px;
   padding-top: 87px;
   line-height: 0.8;
   margin-bottom: 0;
 }
 .our-rooms-section .section-minihead {
-	font-family: "merriW";
-	font-weight: 200;
+	font-family: "montsregular";
+	font-weight: 400;
 	color: #737373;
 	font-size: 13px;
   margin-top: 6px;
 }
-.rupakotroom-gallery-fix {
+.chitwanroom-gallery-fix {
   padding-top: 25px;
 }
 /*slider main home*/
@@ -1482,8 +1481,8 @@ h6.powered-by a:hover {
 	width: 100%;
 }
 .room-type-section .room-type-box h2.type-head {
-	font-family: "merriW";
-	font-weight: 300;
+	font-family: "montssemi";
+	font-weight: 500;
 	color: #333;
 	font-size: 24px;
 	margin: 15px 0;
@@ -1606,14 +1605,13 @@ svg.bk-icon {
 
 .room-reachus-section {
   text-align: center;
-  background-image: url(../img/bgpattern.png);
   background-size: 100%;
   padding: 0;
 }
 .room-reachus-section h1.reachus-head {
 	font-family: "cstmolivia";
   font-weight: 300;
-  color: #346735;
+  color: #007A3E;
   font-size: 70px;
   line-height: 0.8;
 }
@@ -1636,7 +1634,7 @@ svg.bk-icon {
 	min-height: 390px;
 }
 .chitwan-roombg-section {
-	background-image: url(../img/roombg7281.jpg);
+	background-image: url(../img/gallery-image-1534070856.jpeg);
   background-size: 100% 100%;
   min-height: 494px;
   position: relative;
@@ -1664,7 +1662,7 @@ svg.bk-icon {
   border: 2px solid #fff;
   background: transparent;
   box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
-  border-radius: 5px;
+  border-radius: 25px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1684,11 +1682,11 @@ svg.bk-icon {
 	color: #fff;
 }
 .chitwan-roombg-section .roombg-content-section .booknow-btn:hover {
-	background: rgb(52 103 53);
+	background: rgb(0 122 62);
 }
 
 /*gallery pages css*/
-.rupakotgallery-first-section {
+.chitwangallery-first-section {
   background-image: url(../img/gallerybgimg12839.jpg);
   background-size: cover;
   min-height: -webkit-fill-available;
@@ -1806,15 +1804,15 @@ svg.bk-icon {
   line-height: 2.3;
 }
 
-.rupakotgallery-main-section {
+.chitwangallery-main-section {
 	text-align: center;
   padding: 0;
 }
 #gallerySection {
-	background-image: url(../img/pattern2374.png);
+
 	background-size: 100%;
 }
-.rupakotgallery-main-section h2.section-main-header {
+.chitwangallery-main-section h2.section-main-header {
 	font-family: "cstmolivia";
 	font-weight: 300;
 	color: #007A3E;
@@ -1822,9 +1820,9 @@ svg.bk-icon {
   padding-top: 57px;
   margin-bottom: 0;
 }
-.rupakotgallery-main-section h2.section-minihead {
-  font-family: "merriW";
-  font-weight: 200;
+.chitwangallery-main-section h2.section-minihead {
+  font-family: "montsregular";
+  font-weight: 400;
   color: #737373;
   font-size: 13px;
   margin-top: 6px;
@@ -1872,10 +1870,10 @@ svg.bk-icon {
 	.our-roomslider-section .gallery-cell {
     width: 26%;
 	}
-	.our-rooms-section .section-main-header, .rupakotgallery-main-section h2.section-main-header, .room-reachus-section h1.reachus-head {
+	.our-rooms-section .section-main-header, .chitwangallery-main-section h2.section-main-header, .room-reachus-section h1.reachus-head {
 		font-size: 100px;
 	}
-	.our-rooms-section .section-minihead, .rupakotgallery-main-section h2.section-minihead, .room-reachus-section h1.reachus-minihead {
+	.our-rooms-section .section-minihead, .chitwangallery-main-section h2.section-minihead, .room-reachus-section h1.reachus-minihead {
     font-size: 18px;
 	}
 }
@@ -1887,11 +1885,11 @@ svg.bk-icon {
     background-size: contain;
 	}
 	.our-rooms-section {
-    background-image: url(../img/bgpattern154.png);
+    
   	background-size: contain;
 	}
 	.room-reachus-section {
-    background-image: url(../img/bgpattern.png);
+    
   	background-size: contain;
 	}
 	.chitwan-explore-section.chitwan-roomexplore-section {
@@ -1941,7 +1939,7 @@ svg.bk-icon {
 	.chitwan-explore-section .gallery .flickity-page-dots{
 		bottom: -45px;
 	}
-	.rupakotroom-first-section {
+	.chitwanroom-first-section {
 		background-image: url(../img/bgimg1829374.jpg);
 	}
 	.chitwan-hastag-section .hastag-img-gallery {
@@ -1950,13 +1948,13 @@ svg.bk-icon {
 	.reachus-section {
 	    padding-top: 110px;
 	}
-	.rupakotgallery-first-section {
+	.chitwangallery-first-section {
 		background-image: url(../img/bgimg5435679.jpg);
 	}
 	.chitwan-explore-section.chitwan-roomexplore-section {
 	    padding-bottom: 120px;
 	}
-	.chitwan-first-section, .rupakotgallery-first-section, .rupakotroom-first-section {
+	.chitwan-first-section, .chitwangallery-first-section, .chitwanroom-first-section {
 		position: relative;
 	}
 	.herotext-section {
@@ -2024,6 +2022,7 @@ svg.bk-icon {
 
 .gallery-main-section {
 	margin-top: 30px;
+	padding-bottom: 120px;
 }
 
 .gallery-main-section .carousel-cell {
@@ -2053,7 +2052,7 @@ svg.bk-icon {
   border-radius: 0;
 }
 .flickity-page-dots .dot {
-	background: #346735;
+	background: #007A3E;
 }
 .flickity-enabled.is-fullscreen .flickity-viewport {
 	height: 100%!important;
@@ -2225,7 +2224,7 @@ svg.bk-icon {
 
 /*about page style*/
 .chitwan-about-section {
-    background-image: url(../img/bgpattern.png);
+   
     background-size: contain;
     text-align: center;
     padding: 0 5px;
@@ -2267,7 +2266,7 @@ svg.bk-icon {
     margin-top: 15px;
     font-family: "cstmolivia";
     font-weight: 300;
-    color: #346735;
+    color: #007A3E;
     font-size: 38px;
 }
 .adoutus-slider-section .gallery-cell .slide-text-content {
@@ -2286,7 +2285,7 @@ svg.bk-icon {
     opacity: 1;
 }
 .adoutus-slider-section .gallery-cell .slide-text-small {
-    font-family: "merriWIt";
+    font-family: "montssemi";
     font-weight: 500;
     font-size: 13px;
     color: #000;
@@ -2305,8 +2304,8 @@ svg.bk-icon {
     margin-bottom: 0;
 }
 .chitwan-about-section .section-minihead {
-	font-family: "merriW";
-	font-weight: 200;
+	font-family: "montsregular";
+	font-weight: 400;
 	color: #737373;
 	font-size: 13px;
     margin-top: 6px;
@@ -2351,30 +2350,31 @@ svg.bk-icon {
 
 /*contact page style*/
 .contact-section-main {
-	background-image: url(../img/bgpattern.png);
+	
     background-size: 100%;
     text-align: center;
-    padding: 0 20px;
+    padding: 0px 20px 40px 20px;
+
 }
 .contact-section-main h2.section-main-header {
 	font-family: "cstmolivia";
 	font-weight: 300;
-	color: #346735;
+	color: #007A3E;
 	font-size: 70px;
     padding-top: 57px;
     line-height: 0.8;
     margin-bottom: 0;
 }
 .contact-section-main h2.section-minihead {
-	font-family: "merriW";
-	font-weight: 200;
+	font-family: "montsregular";
+	font-weight: 400;
 	color: #737373;
 	font-size: 13px;
     margin-top: 6px;
 }
 .book-main-section {
     margin-top: 30px;
-    background-color: #29512A;
+    background-color: #007A3E;
     border-radius: 10px;
     padding: 30px 20px;
 }
@@ -2391,7 +2391,7 @@ svg.bk-icon {
     margin-bottom: 15px;
 }
 .book-main-section .booking-section .booking-col label {
-	font-family: "merriW";
+	font-family: "montsregular";
 	font-weight: 300;
 	color: #dda505;
 	margin-bottom: 6px;
@@ -2411,7 +2411,7 @@ svg.bk-icon {
 	border-bottom: 1px solid #fff;
 	background: none;
 	cursor: pointer;
-	font-family: "merriWIt";
+	font-family: "montsregular";
 	font-weight: 300;
 	font-size: 14px;
 	text-align: center;
@@ -2455,7 +2455,7 @@ svg.bk-icon {
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 4px;
+    border-radius: 25px;
     background: #dda505;
     transition: 0.3s ease-in-out;
 }
@@ -2479,7 +2479,7 @@ svg.bk-icon {
     line-height: 2.4;
 }
 .booking-search-button span.btn-text, .book-now-button a span {
-	font-family: "cstmabel";
+	font-family: "montsregulat";
 	font-weight: 300;
 	color: #fff;
 
@@ -2495,7 +2495,7 @@ svg.bk-icon {
 .booking-form-section h2.form-header {
 	font-family: "merriWIt";
 	font-weight: 300;
-	color: #346735;
+	color: #007A3E;
     margin-bottom: 45px;
     margin-top: 20px;
 }
@@ -2614,7 +2614,7 @@ svg.bk-icon {
   content: ' ';
   height: 18px;
   width: 2px;
-  background-color: #346735;
+  background-color: #007A3E;
 }
 .closeBtn:before {
   transform: rotate(45deg);
@@ -2634,12 +2634,12 @@ svg.bk-icon {
   font-family: "merriWIt";
   font-weight: 300;
   font-size: 14px;
-  color: #346735;
+  color: #007A3E;
 }
 .plus-button:before, .plus-button:after {
   content: "";
   display: block;
-  background-color: #346735;
+  background-color: #007A3E;
   position: absolute;
   top: 50%;
   left: -23%;
@@ -2806,7 +2806,7 @@ svg.bk-icon {
 
 
 #packages{
-    background-image: url(../img/packages/bg-pattern.png);
+   
     height: auto;
     background-size: 100%;
     text-align: center;
@@ -2817,16 +2817,16 @@ svg.bk-icon {
 #packages .packagae-container h2.section-main-header {
 	font-family: "cstmolivia";
     font-weight: 300;
-    color: #346735;
+    color: #007A3E;
     font-size: 70px;
     padding-top: 57px;
     line-height: 0.8;
     margin-bottom: 20px;
 }
 #packages .packagae-container h2.section-minihead {
-	font-family: "merriW";
-    font-style: italic;
-    font-weight: 200;
+	font-family: "montsregular";
+   
+    font-weight: 400;
     color: #737373;
     font-size: 13px;
     margin-top: 6px;
@@ -2851,7 +2851,7 @@ svg.bk-icon {
 .package-contents .package-box h2.package-head {
 	font-family: "merriW";
 	font-weight: 600;
-	color: #346735;
+	color: #007A3E;
 	font-size: 16px;
 	line-height: 1.6;
 	margin: 14px 0;
@@ -2866,7 +2866,7 @@ svg.bk-icon {
 .package-contents .package-box h2.textone span.black-text {
 	font-family: "cstmgothamrd";
 	font-weight: 600;
-	color: #346735;
+	color: #007A3E;
 	font-size: 16px;
 }
 .package-contents .package-box .features {
@@ -2881,7 +2881,7 @@ svg.bk-icon {
 }
 .package-contents .package-box .book-btn {
 	border-radius: 5px;
-	background-color: #346735;
+	background-color: #007A3E;
 	color: #fff;
 	width: 132px;
 	height: 44px;
@@ -2915,7 +2915,7 @@ svg.bk-icon {
 .chitwan-blog-section h2.section-main-header {
 	font-family: "cstmolivia";
 	font-weight: 300;
-	color: #346735;
+	color: #007A3E;
 	font-size: 70px;
     padding-top: 57px;
     line-height: 0.8;
@@ -2935,14 +2935,14 @@ svg.bk-icon {
 }
 
 .chitwan-blog-section .blog-section-main .filter h1{
-	/* background-color: #346735; */
+	/* background-color: #007A3E; */
     display: flex;
     align-items: center;
     padding: 0px 20px;
     margin-top: 0px;
     margin-bottom: 20px;
     font-family: "merriW";
-    color: #346735;
+    color: #007A3E;
     box-shadow: rgb(0 0 0 / 15%) 0px 5px 15px 0px;
     border-radius: 5px;
     height: 40px;
@@ -2993,7 +2993,7 @@ svg.bk-icon {
 
 .chitwan-blog-section .blog-section-main .packinner .details-btn {
 	border-radius: 5px;
-	background-color: #346735;
+	background-color: #007A3E;
 	color: #fff;
 	width: 132px;
 	height: 44px;
@@ -3036,33 +3036,33 @@ svg.bk-icon {
     padding-bottom: 10px;
 }
 .contact-formsection .contact-formrow .contact-form-col label {
-	font-family: "merriW";
+	font-family: "montsregular";
     font-weight: 300;
     color: #dda505;
     margin-bottom: 12px;
 }
 .contact-formsection .contact-formrow .contact-form-col input {
 	border: none;
-	border-bottom: 2px solid #346735;
+	border-bottom: 2px solid #007A3E;
 	background: none;
-	font-family: "merriWIt";
+	font-family: "montsregular";
     font-weight: 300;
     font-size: 14px;
     text-align: center;
-    color: #346735;
+    color: #007A3E;
     margin-bottom: 10px;
     padding: 6px 8px;
     min-width: 190px;
 }
 .contact-formsection .contact-formrow .contact-form-col #message {
 	border: none;
-	border-bottom: 2px solid #346735;
+	border-bottom: 2px solid #007A3E;
 	background: none;
-	font-family: "merriWIt";
+	font-family: "montsregular";
     font-weight: 300;
     font-size: 14px;
     text-align: center;
-    color: #346735;
+    color: #007A3E;
     padding: 6px 8px;
     min-width: 190px;
 }
@@ -3090,8 +3090,8 @@ svg.bk-icon {
 
 .contact-btn-container button {
     border: none;
-    border-radius: 5px;
-    background-color: #346735;
+    border-radius: 25px;
+    background-color: #007A3E;
     color: #fff;
     width: 132px;
     height: 44px;
@@ -3102,7 +3102,7 @@ svg.bk-icon {
     box-shadow: rgb(0 0 0 / 15%) 0px 5px 15px 0px;
     text-decoration: none;
     transition: 0.3s ease-in;
-    font-family: "cstmabel";
+    font-family: "montsregular";
     font-weight: 300;
     color: #fff;
 }
@@ -3113,10 +3113,10 @@ svg.bk-icon {
 	padding-bottom: 14px;
 }
 .label-head-main {
-	font-family: "merriW";
+	font-family: "montsregular";
 	font-weight: 600;
 	font-size: 16px;
-	color: #346735;
+	color: #007A3E;
 	margin-bottom: 14px;
 }
 .contact-icon-row p {
@@ -3132,21 +3132,21 @@ p.locationIcon:before {
   font-weight: 900;
   content: "\f3c5";
   margin-right: 8px;
-  color: #346735;
+  color: #007A3E;
 }
 p.phoneIcon:before {
 	font-family: "Font Awesome 5 Free";
   font-weight: 900;
   content: "\f879";
   margin-right: 8px;
-  color: #346735;
+  color: #007A3E;
 }
 p.mailIcon:before {
 	font-family: "Font Awesome 5 Free";
   font-weight: 900;
   content: "\f0e0";
   margin-right: 8px;
-  color: #346735;
+  color: #007A3E;
 }
 /*ends*/
 
@@ -3208,7 +3208,7 @@ h2.package-main-head {
 	font-family: "merriWIt";
 	font-size: 16px;
 	margin-bottom: 15px;
-	color: #346735;
+	color: #007A3E;
 }
 .packagedetails-section ul {
   margin-left: 30px;
@@ -3230,7 +3230,7 @@ h2.package-main-head {
 
 .package-flex-row {
 	display: flex;
-	background-color: #1E3D00;
+	background-color: #007A3E;
 	padding: 20px;
 	margin-bottom: 25px;
 	border-radius: 4px;
@@ -3280,8 +3280,8 @@ h2.package-main-head {
 }
 h2.package-head-main {
 	color: #fff;
-	font-family: "merriW";
-	font-weight: 300;
+	font-family: "montssemi";
+	font-weight: 500;
 	font-size: 16px;
 	letter-spacing: 0.4px;
 }
@@ -3315,7 +3315,7 @@ hr.theme-dashed-box {
 }
 .details-btn {
 	border: 2px solid #fff;
-  border-radius: 4px;
+  border-radius: 25px;
   width: 144px;
   height: 44px;
   margin-right: auto;
@@ -3324,7 +3324,7 @@ hr.theme-dashed-box {
 .details-btn a {
 	text-decoration: none;
   color: #fff;
-  font-family: "cstmabel";
+  font-family: "montssemi";
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 0.4px;
@@ -3627,7 +3627,6 @@ hr.theme-dashed-box {
 @media (min-width: 1200px) {
 	
 	#packages {
-		background-image: url(../img/bgpattern154.png);
 		background-size: contain;
 	}
 	.chitwan-blog-section .blog-section-main {
@@ -3640,7 +3639,7 @@ hr.theme-dashed-box {
 	}
 	.contact-section-main {
 	    background-size: contain;
-	    background-image: url(../img/bgpattern154.png);
+	   
 	}
 	.button_container {
 	    top: 7%;
@@ -3977,13 +3976,13 @@ hr.theme-dashed-box {
 	.flickity-enabled.is-fullscreen .flickity-viewport {
 	    height: 100%!important;
 	}
-	.chitwan-carousel-section #rupakotCarousel.is-fullscreen .gallery-cell .slide-text-content .slide-text-small {
+	.chitwan-carousel-section #chitwanCarousel.is-fullscreen .gallery-cell .slide-text-content .slide-text-small {
 		height: 60px;
 	}
-	.chitwan-carousel-section #rupakotCarousel.is-fullscreen .gallery-cell .slide-text-content {
+	.chitwan-carousel-section #chitwanCarousel.is-fullscreen .gallery-cell .slide-text-content {
 		bottom: 130px;
 	}
-	.chitwan-carousel-section #rupakotCarousel.is-fullscreen .gallery-cell .slide-img-box img {
+	.chitwan-carousel-section #chitwanCarousel.is-fullscreen .gallery-cell .slide-img-box img {
 		height: 82%;
 	}
 
@@ -4158,10 +4157,10 @@ hr.theme-dashed-box {
     height: 240px;
   }
 }
-#rupakotCarousel.is-fullscreen .carousel-cell {
+#chitwanCarousel.is-fullscreen .carousel-cell {
 	width: 100%;
 }
-#roomPageGallerySlider.is-fullscreen .flickity-viewport, #packagePageGallerySlider.is-fullscreen .flickity-viewport, #carousleGallery.is-fullscreen .flickity-viewport, #rupakotCarousel.is-fullscreen .carousel-cell-image, #rupakotCarousel.is-fullscreen .flickity-viewport {
+#roomPageGallerySlider.is-fullscreen .flickity-viewport, #packagePageGallerySlider.is-fullscreen .flickity-viewport, #carousleGallery.is-fullscreen .flickity-viewport, #chitwanCarousel.is-fullscreen .carousel-cell-image, #chitwanCarousel.is-fullscreen .flickity-viewport {
     height: 100%!important;
 }
 html.is-flickity-fullscreen {
