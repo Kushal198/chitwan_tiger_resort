@@ -1,5 +1,113 @@
 /*fonts*/
 
+.footer {
+    background-color: #007A3E;
+    padding: 1% 0;
+    color: #fff;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    list-style: none;
+    text-decoration: none;
+}
+
+.menu li a {
+    color: #fff;
+    line-height: 24px;
+    font-size: 15px;
+    font-family: 'montsregular';
+    text-decoration: none;
+}
+
+.widget {
+    list-style: none;
+}
+
+.widgettitle {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    font-family: 'montsregular';
+    margin-top: 10px;
+}
+
+.footer-social-icons {
+    padding-top: 10px;
+    padding-bottom: 35px;
+    display: flex;
+}
+
+.footer-social-icons a {
+    color: #fff;
+    border-radius: 1px;
+    width: 35px;
+    height: 35px;
+    line-height: 34px;
+    display: block;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 4px;
+}
+
+.footer-links a {
+    color: #fff;
+    font-family: "cstmgothamrd";
+    font-weight: 500;
+    font-size: 12px;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.footer-social-icons a img {
+    width: 20px;
+}
+
+ul.social-network {
+    list-style: none;
+    display: inline;
+    margin-left: 0 !important;
+    padding: 0;
+}
+
+.copyright,
+.copyright a {
+    color: #fff;
+    font-size: 16px;
+}
+
+.copy-left {
+    text-align: right;
+    padding-top: 5px;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.copyright img {
+    width: 15%;
+}
+
+.copy-right {
+    text-align: left;
+}
+
+.copyright {
+    background: #007A3E;
+    color: #fff;
+    padding: 1% 0;
+}
+
 @font-face {
     font-family: "cstmolivia";
     src: url(../libraries/fonts/oliviadhorjent/olivia.ttf) format("truetype");
