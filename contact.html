@@ -31,10 +31,10 @@
     </script>
 
     <!-- link css/js here -->
-    <link defer href="libraries/css/bootstrap.min.css" rel="stylesheet" type="text/css" id="bootstrap-stylesheet">
-    <link rel="stylesheet" href="css/app.min.css" crossorigin="anonymous">
+    <link href="libraries/css/bootstrap.min.css" rel="stylesheet" type="text/css" id="bootstrap-stylesheet">
+
     <link rel="stylesheet" href="libraries/css/flickity.min.css">
-    <link rel="stylesheet" href="libraries/css/animate.css">
+
     <link rel="stylesheet" href="libraries/css/flickityfull.css">
     <link rel="stylesheet" href="css/base.css">
 </head>
@@ -102,49 +102,41 @@
             <h2 class="section-main-header">Contact Us</h2>
             <h2 class="section-minihead">Get In Touch With Us</h2>
 
-            <div class="card">
-                <form action="#" method="post" id="myForm">
-                    <div class="card-body">
-                        <div class="container">
-                            <input type="hidden" name="_token" value="">
-                            <div class="form-row">
-                                <div class="col-md-6">
-                                    <label for="fullName">Full Name</label>
-                                    <input type="text" name="firstname" placeholder="eg. John Parker" required="" class="form-control">
-                                </div>
-                                <div class="col-md-6">
-                                    <label for="contactNum">Contact Number</label>
-                                    <input type="tel" name="phone" placeholder="0123456789" required="" class="form-control">
-                                </div>
-                            </div>
-                            <div class="form-row">
-                                <div class="col-md-6">
-                                    <label for="emailAdd">Email Address</label>
-                                    <input type="email" name="email" placeholder="eg. hello@example.com" required="" class="form-control">
-                                </div>
-                                <div class="col-md-6">
-                                    <label for="message">Message</label>
-                                    <textarea id="message" name="message" rows="8" placeholder="Write your Message" required="" class="form-control"></textarea>
-                                </div>
-                            </div>
-                            <div class="contact-btn-container">
+            <div class="contact-formsection">
 
-                                <button type="submit">Submit</button>
-                            </div>
+                <form action="contact/submit.html" method="post" id="myForm">
+                    <input type="hidden" name="_token" value="jJEVmRVANqiIthBfG67wcyDR3apK1K8ICie1cKo3">
+                    <div class="contact-formrow">
+                        <div class="contact-form-col">
+                            <label for="fullName">Full Name</label>
+                            <input type="text" name="firstname" placeholder="eg. John Parker" required="">
+                        </div>
+                        <div class="contact-form-col">
+                            <label for="contactNum">Contact Number</label>
+                            <input type="tel" name="phone" placeholder="0123456789" required="">
+                        </div>
+                        <div class="contact-form-col">
+                            <label for="emailAdd">Email Address</label>
+                            <input type="email" name="email" placeholder="eg. hello@example.com" required="">
+                        </div>
+                        <div class="contact-form-col">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="8" placeholder="Write your Message" required=""></textarea>
                         </div>
                     </div>
-                </form>
-            </div>
-            <div class="contact-detail-section">
-                <div class="flex-section">
-                    <div class="flex-box-contact">
-                        <h2 class="label-head-main">Resort</h2>
-                        <div class="contact-icon-row">
-                            <p class="locationIcon">Tadi, Chitwan, Nepal</p>
-                            <p class="phoneIcon">+977-01-722160, 977-9807869834</p>
-                            <p class="mailIcon">info@chitwantigerresort.com</p>
-                        </div>
-                        <!-- </div>
+                    <div class="contact-btn-container">
+
+                        <button type="submit">Submit</button>
+                        <div class="contact-detail-section">
+                            <div class="flex-section">
+                                <div class="flex-box-contact">
+                                    <h2 class="label-head-main">Resort</h2>
+                                    <div class="contact-icon-row">
+                                        <p class="locationIcon">Tadi, Chitwan, Nepal</p>
+                                        <p class="phoneIcon">+977-01-722160, 977-9807869834</p>
+                                        <p class="mailIcon">info@chitwantigerresort.com</p>
+                                    </div>
+                                    <!-- </div>
             <div class="flex-box-contact">
                 <h2 class="label-head-main">Sales Office</h2>
                                 <div class="contact-icon-row">
@@ -153,107 +145,106 @@
                     <p class="mailIcon">sales@rupakotresort.com</p>
                 </div>
                             </div> -->
-                    </div>
-                </div>
-
-            </div>
-
-
-
-        </div>
-
-
-        <footer class="footer-nav">
-
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-3 col-md-3 col-sm-3">
-                        <a href="home.html"><img src="img/logo1.png" width="60px" height="60px" alt=""></a>
-                        <p>Chitwan Tiger Resort</p>
-
-                        <div class="footer-social-icons">
-                            <a href="#" class="fb-link" target="_blank"><img src="img/icons/fb.svg" alt="" class="fb-icon"></a>
-                            <a href="#" class="ig-link" target="_blank"><img src="img/icons/ig.svg" alt="" class="ig-icon"></a>
+                                </div>
+                            </div>
 
                         </div>
 
+
+
                     </div>
-                    <div class="col-lg-3 col-md-3 col-sm-3">
-                        <li class="widget">
-                            <h2 class="widgettitle">Information</h2>
-                            <div class="menu-footer-menu-container">
-                                <ul id="menu-footer-menu" class="menu">
-                                    <li><a href="aboutus.html">About Us</a></li>
-                                    <li><a href="room.html">Our Rooms</a></li>
-                                    <li><a href="gallery.html"> Gallery</a></li>
-                                    <li><a href="packages.html">Packages</a></li>
-                                    <li><a href="contact.html">Contact Us</a></li>
-                                </ul>
+
+
+                    <footer class="footer-nav">
+
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-3 col-md-3 col-sm-3">
+                                    <a href="home.html"><img src="img/logo1.png" width="60px" height="60px" alt=""></a>
+                                    <p>Chitwan Tiger Resort</p>
+
+                                    <div class="footer-social-icons">
+                                        <a href="#" class="fb-link" target="_blank"><img src="img/icons/fb.svg" alt="" class="fb-icon"></a>
+                                        <a href="#" class="ig-link" target="_blank"><img src="img/icons/ig.svg" alt="" class="ig-icon"></a>
+
+                                    </div>
+
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-3">
+                                    <li class="widget">
+                                        <h2 class="widgettitle">Information</h2>
+                                        <div class="menu-footer-menu-container">
+                                            <ul id="menu-footer-menu" class="menu">
+                                                <li><a href="aboutus.html">About Us</a></li>
+                                                <li><a href="room.html">Our Rooms</a></li>
+                                                <li><a href="gallery.html"> Gallery</a></li>
+                                                <li><a href="packages.html">Packages</a></li>
+                                                <li><a href="contact.html">Contact Us</a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-3 menu-services">
+                                    <h2 class="widgettitle">Our Services</h2>
+                                    <ul class="menu">
+                                        <li><a href="#">Jungle Safari</a></li>
+                                        <li><a href="#">Elephant Safari</a></li>
+                                        <li><a href="#">Horse Riding</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-3">
+                                    <h2 class="widgettitle">Address</h2>
+                                    <p><i class="fa fa-phone-square" aria-hidden="true"></i> 091-0873623, 9844747567</p>
+                                    <p><i class="fa fa-map-marker" aria-hidden="true"></i> Tadi, Narayangarh, Chitwan</p>
+                                    <p><i class="fa fa-envelope" aria-hidden="true"></i> info@chitwan.com</p>
+                                </div>
                             </div>
-                        </li>
-                    </div>
-                    <div class="col-lg-3 col-md-3 col-sm-3 menu-services">
-                        <h2 class="widgettitle">Our Services</h2>
-                        <ul class="menu">
-                            <li><a href="#">Jungle Safari</a></li>
-                            <li><a href="#">Elephant Safari</a></li>
-                            <li><a href="#">Horse Riding</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-lg-3 col-md-3 col-sm-3">
-                        <h2 class="widgettitle">Address</h2>
-                        <p><i class="fa fa-phone-square" aria-hidden="true"></i> 091-0873623, 9844747567</p>
-                        <p><i class="fa fa-map-marker" aria-hidden="true"></i> Tadi, Narayangarh, Chitwan</p>
-                        <p><i class="fa fa-envelope" aria-hidden="true"></i> info@chitwan.com</p>
-                    </div>
-                </div>
-                <div class="clearfix"></div>
-                <div class="copyright">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-6 col-md-6 col-sm-6 copy-left">
-                                <p>Copyright © 2022 by Chitwan Tiger Resort. All rights reserved</p>
-                            </div>
-                            <div class="col-lg-6 col-md-6 col-sm-6 copy-right">
-                                <a href="https://www.creativecorpinc.com/" target="_blank">Design by <img src="https://aamaayurveda.com/wp-content/themes/aayurved/images/creativecorp.png"></a>
-                                <a href="http://www.creativesystem.com.np/" target="_blank">&amp; Hosted by <img src="https://aamaayurveda.com/wp-content/themes/aayurved/images/officelogo.png"></a>
+                            <div class="clearfix"></div>
+                            <div class="copyright">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-lg-6 col-md-6 col-sm-6 copy-left">
+                                            <p>Copyright © 2022 by Chitwan Tiger Resort. All rights reserved</p>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 col-sm-6 copy-right">
+                                            <a href="https://www.creativecorpinc.com/" target="_blank">Design by <img src="https://aamaayurveda.com/wp-content/themes/aayurved/images/creativecorp.png"></a>
+                                            <a href="http://www.creativesystem.com.np/" target="_blank">&amp; Hosted by <img src="https://aamaayurveda.com/wp-content/themes/aayurved/images/officelogo.png"></a>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </div>
+                    </footer>
             </div>
-        </footer>
-    </div>
 
-    <!-- custom scripts -->
+            <!-- custom scripts -->
 
-    <script src="web/libraries/js/jquery1.8.3.min.js"></script>
-    <script src="web/libraries/js/flickity.min.js"></script>
-    <script src="web/libraries/js/wow.min.js"></script>
-    <script src="web/libraries/js/kit.fontawesome.b205fa9460.js"></script>
-    <script src="web/js/tooltip.js"></script>
-    <script>
-        new WOW().init();
-    </script>
-    <script type="text/javascript">
-        $('#toggle').click(function() {
-            $(this).toggleClass('active');
-            $('#overlay').toggleClass('open');
-        });
-    </script>
+            <script src="libraries/js/jquery1.8.3.min.js"></script>
+            <script src="libraries/js/flickity.min.js"></script>
+            <script src="libraries/js/wow.min.js"></script>
 
-    <script src="web/libraries/js/jquery-ui.min.js"></script>
-    <script src="web/js/script.js"></script>
-    <script type="text/javascript">
-        $("#searchBtn").click(function() {
-            $("#bookingLoading").toggle();
-            $('#loadingSpinner').delay(2500).queue(function(next) {
-                $(this).hide();
-                $("#bookingForm").fadeToggle(1500);
-                next();
-            });
-        });
-    </script>
+            <script>
+                new WOW().init();
+            </script>
+            <script type="text/javascript">
+                $('#toggle').click(function() {
+                    $(this).toggleClass('active');
+                    $('#overlay').toggleClass('open');
+                });
+            </script>
+
+            <script src="libraries/js/jquery-ui.min.js"></script>
+            <script src="js/script.js"></script>
+            <script type="text/javascript">
+                $("#searchBtn").click(function() {
+                    $("#bookingLoading").toggle();
+                    $('#loadingSpinner').delay(2500).queue(function(next) {
+                        $(this).hide();
+                        $("#bookingForm").fadeToggle(1500);
+                        next();
+                    });
+                });
+            </script>
 
 
 </body>

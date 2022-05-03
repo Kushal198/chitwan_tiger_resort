@@ -31,10 +31,8 @@
     </script>
 
     <!-- link css/js here -->
-    <link defer href="libraries/css/bootstrap.min.css" rel="stylesheet" type="text/css" id="bootstrap-stylesheet">
-    <link rel="stylesheet" href="css/app.min.css" crossorigin="anonymous">
+    <link href="libraries/css/bootstrap.min.css" rel="stylesheet" type="text/css" id="bootstrap-stylesheet">
     <link rel="stylesheet" href="libraries/css/flickity.min.css">
-    <link rel="stylesheet" href="libraries/css/animate.css">
     <link rel="stylesheet" href="libraries/css/flickityfull.css">
     <link rel="stylesheet" href="css/base.css">
 
@@ -110,16 +108,16 @@
             <form action="#" method="post">
                 <input type="hidden" name="_token" value="jJEVmRVANqiIthBfG67wcyDR3apK1K8ICie1cKo3">
                 <div class="book-main-section">
-                    <div class="booking-section">
-                        <div class="booking-col">
+                    <div class="booking-section row">
+                        <div class="booking-col col-md-4">
                             <label for="checkIndate">Check In</label>
-                            <input class="booking-form-input" name="check_in" id="checkIndate" type="text" placeholder="Check In Date" class="form-control" autocomplete="off" required="">
+                            <input class="booking-form-input" name="check_in" id="checkIndate" type="text" placeholder="Check In Date" autocomplete="off" required="">
                         </div>
-                        <div class="booking-col">
+                        <div class="booking-col col-md-4">
                             <label for="checkOutdate">Check Out</label>
                             <input class="booking-form-input" name="check_out" id="checkOutdate" type="text" placeholder="Check Out Date" autocomplete="off" required="">
                         </div>
-                        <div class="booking-col">
+                        <div class="booking-col col-md-4">
                             <div class="booking-search-button">
                                 <a href="javascript:void(0)" id="searchBtn"><span class="btn-text">Search</span></a>
                             </div>
@@ -321,8 +319,7 @@
         <script src="libraries/js/jquery1.8.3.min.js"></script>
         <script src="libraries/js/flickity.min.js"></script>
         <script src="libraries/js/wow.min.js"></script>
-        <script src="libraries/js/kit.fontawesome.b205fa9460.js"></script>
-        <script src="js/tooltip.js"></script>
+
         <script>
             new WOW().init();
         </script>

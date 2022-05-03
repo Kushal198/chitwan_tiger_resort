@@ -1,8 +1,37 @@
 /*fonts*/
 
+.slide-textbox {
+    margin: 16px 10px 0;
+}
+
+p.text-discript {
+    font-family: "montsRegular";
+    font-weight: 500;
+    font-size: 14px;
+    color: #666;
+    line-height: 1.4;
+    margin-bottom: 10px;
+    height: 95px;
+    overflow: hidden;
+}
+
+.slide-head {
+    font-family: "montssemi";
+    font-weight: 600;
+    color: #007A3E;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.slide-imgbox img {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+}
+
 .footer-nav {
     background-color: #007A3E;
-    padding: 4% 0;
+    padding-top: 4%;
     color: #fff;
 }
 
@@ -87,7 +116,6 @@ ul.social-network {
 
 .copy-left {
     text-align: right;
-    padding-top: 5px;
 }
 
 img {
@@ -346,7 +374,7 @@ body {
     height: 90px;
     left: 90px;
     background: #fff;
-    top: 40px;
+    top: 15px;
     z-index: 1000;
     border-radius: 50%;
     /* font-family: 'Phosphate';
@@ -2049,9 +2077,9 @@ svg.bk-icon {
 }
 
 .chitwan-roombg-section .roombg-content-section .booknow-btn a .book-btn {
-    font-family: "cstmabel";
+    font-family: "montsmedium";
     font-weight: 500;
-    font-size: 18px;
+    font-size: 16px;
     color: #fff;
 }
 
@@ -2816,7 +2844,6 @@ svg.bk-icon {
 
 .contact-section-main {
     background-size: 100%;
-    text-align: center;
     padding: 0px 20px 40px 20px;
 }
 
@@ -2840,6 +2867,7 @@ svg.bk-icon {
 
 .book-main-section {
     margin-top: 30px;
+    margin-bottom: 30px;
     background-color: #007A3E;
     border-radius: 10px;
     padding: 30px 20px;
@@ -2949,7 +2977,7 @@ svg.bk-icon {
 .booking-form-section .book-now-button input {
     border: none;
     background: none;
-    font-family: "MerriW";
+    font-family: "montsregular";
     font-weight: 300;
     color: #fff;
     width: 100%;
@@ -2967,13 +2995,14 @@ svg.bk-icon {
 
 .booking-search-button span.btn-text,
 .book-now-button a span {
-    font-family: "montsregulat";
+    font-family: "montsregular";
     font-weight: 300;
     color: #fff;
 }
 
 .booking-form-section {
     margin-top: 20px;
+    background: #fff;
     border: 1px solid #29512A;
     border-radius: 5px;
     padding: 20px;
@@ -2982,7 +3011,7 @@ svg.bk-icon {
 }
 
 .booking-form-section h2.form-header {
-    font-family: "merriWIt";
+    font-family: "montsregular";
     font-weight: 300;
     color: #007A3E;
     margin-bottom: 45px;
@@ -3008,7 +3037,7 @@ svg.bk-icon {
     border: none;
     border-bottom: 1px solid #dda505;
     background: none;
-    font-family: "merriWIt";
+    font-family: "montsregular";
     font-weight: 300;
     font-size: 14px;
     text-align: center;
@@ -3078,7 +3107,7 @@ svg.bk-icon {
     border: none;
     background: none;
     cursor: pointer;
-    font-family: "merriWIt";
+    font-family: "montsregular";
     font-weight: 300;
     font-size: 14px;
     text-align: center;
@@ -3106,7 +3135,7 @@ svg.bk-icon {
     top: 50%;
     transform: translateY(-50%);
     cursor: pointer;
-    font-family: "merriWIt";
+    font-family: "montsregular";
     font-weight: 300;
     font-size: 14px;
 }
@@ -3141,7 +3170,7 @@ svg.bk-icon {
     border-radius: 999px;
     position: relative;
     cursor: pointer;
-    font-family: "merriWIt";
+    font-family: "montsregular";
     font-weight: 300;
     font-size: 14px;
     color: #007A3E;
@@ -3259,6 +3288,7 @@ svg.bk-icon {
 
 .ui-widget-header {
     background: #ddd;
+    padding: 10px;
 }
 
 .ui-datepicker .ui-datepicker-title {
@@ -3273,7 +3303,7 @@ svg.bk-icon {
     border: 1px solid #c3c3c3;
     background: none;
     border-radius: 2px;
-    font-family: 'merriWIt';
+    font-family: 'montssemi';
     cursor: pointer;
 }
 
@@ -3283,11 +3313,15 @@ svg.bk-icon {
 .ui-button,
 html .ui-button.ui-state-disabled:hover,
 html .ui-button.ui-state-disabled:active {
-    font-family: 'merriW';
+    font-family: 'montsregular';
+}
+
+.ui-state-default {
+    color: #333;
 }
 
 .ui-datepicker th {
-    font-family: 'merriWIt';
+    font-family: 'montssemi';
 }
 
 .ui-datepicker .ui-datepicker-prev,
@@ -4703,7 +4737,7 @@ hr.theme-dashed-box {
     }
     .booking-section .booking-col input#checkIndate,
     .booking-section .booking-col input#checkOutdate {
-        width: 235px;
+        width: 100%;
     }
     .booking-form-section .booking-row .booking-col input,
     .booking-form-section .booking-row .booking-col select,
