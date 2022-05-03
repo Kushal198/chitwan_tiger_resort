@@ -4083,7 +4083,7 @@ hr.theme-dashed-box {
         justify-content: flex-start;
     }
     .reachus-section .map-container {
-        height: 240px;
+        height: auto;
         overflow: hidden;
     }
     .logo-section {
@@ -4207,7 +4207,7 @@ hr.theme-dashed-box {
         height: auto;
     }
     .reachus-section .map-container {
-        height: 842px;
+        height: auto;
         overflow: hidden;
     }
     h1.testimonial-head {
@@ -4227,7 +4227,7 @@ hr.theme-dashed-box {
 
 @media (min-width: 320px) and (max-width: 349px) {
     .reachus-section .map-container {
-        height: 890px;
+        height: auto;
     }
     .reachus-section .map-container img {
         margin-top: 200px;
@@ -4236,7 +4236,7 @@ hr.theme-dashed-box {
 
 @media (min-width: 350px) and (max-width: 369px) {
     .reachus-section .map-container {
-        height: 840px;
+        height: auto;
     }
     .reachus-section .map-container img {
         margin-top: 67px;
@@ -4245,7 +4245,7 @@ hr.theme-dashed-box {
 
 @media (min-width: 370px) and (max-width: 380px) {
     .reachus-section .map-container {
-        height: 810px;
+        height: auto;
     }
     .reachus-section .map-container img {
         margin-top: 38px;
