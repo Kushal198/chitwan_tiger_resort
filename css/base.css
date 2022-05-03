@@ -2190,10 +2190,6 @@ svg.bk-icon {
 .book-now-btn {
     display: block;
     flex: 1 100%;
-    position: absolute;
-    left: 50%;
-    bottom: -90px;
-    transform: translateX(-50%);
 }
 
 .book-now-btn .book-btn {
