@@ -306,6 +306,7 @@ body {
 #wrapper {
     position: relative;
     height: auto;
+    overflow-x: hidden;
 }
 
 #headerSection {
