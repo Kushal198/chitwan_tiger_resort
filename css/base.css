@@ -4295,7 +4295,7 @@ hr.theme-dashed-box {
 
 @media (max-width:901px) {
     .logo-main {
-        display: none;
+        display: block;
     }
 }
 
