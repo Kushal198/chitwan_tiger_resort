@@ -4061,8 +4061,15 @@ hr.theme-dashed-box {
 
 @media (min-width: 900px) and (max-width: 1199px) {
     .herotext-section {
-        text-align: center;
-        padding: 30% 0;
+        padding: 0;
+    position: absolute;
+    width: 100%;
+    max-width: 630px;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    flex-wrap: wrap;
+     
     }
     #myVideo {
         position: relative;
@@ -4135,7 +4142,8 @@ hr.theme-dashed-box {
         margin-bottom: 14px;
     }
     .herotext-section {
-        padding: 150px 0;
+       display: none;
+    
     }
     .logomain-home {
         max-width: 150px;
